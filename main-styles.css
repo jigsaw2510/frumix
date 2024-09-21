@@ -45,6 +45,7 @@ main {
     align-items: center;         /* Vertically aligns logo and menu items */
     justify-content: space-between; /* Space items evenly if needed */
     border: black solid 1px;
+    padding: 10px 0;
 }
 
 /* Styling for the logo */
@@ -133,6 +134,7 @@ main {
     }
 }
 
+/* Basic styling for the navbar end */
 
 .flex-container {
 display: flex;
@@ -320,3 +322,39 @@ h1 {
   max-width: 100%;
 }
 }
+
+/*Contact page styles */
+
+.contact {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border: solid black 1px;
+  margin-top: 20px;
+}
+.contact-element {
+  max-height: 100px;
+  margin: 10px;
+  text-align: center;
+}
+.title {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #C95F00;
+}
+.contact-element a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.contact-element a:hover {
+  color: #C95F00;
+  text-decoration: underline;
+}
+
+/*Contact page styles end*/
