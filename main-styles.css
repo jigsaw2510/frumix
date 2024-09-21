@@ -281,6 +281,16 @@ section p {
 
 /*Contact page styles end*/
 
+/*About page styles start*/
+
+#about {
+  font-size: 20px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+/*About page styles end*/
+
 
 /* MEDIA STYLES START */
 
