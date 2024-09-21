@@ -62,8 +62,14 @@ main {
 .topnav a {
     color: black;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 10px;
     display: block;
+    border-left: 1px solid black;
+    font-weight: 700;
+}
+
+.topnav a:hover {
+  color: red;
 }
 
 .topnav .dropdown {
@@ -76,9 +82,15 @@ main {
     border: none;                  /* Remove button border */
     color: inherit;                /* Inherit the text color from .topnav a */
     font: inherit;                 /* Inherit the font styling */
-    padding: 14px 16px;
+    padding: 10px;
+    font-weight: 700;
+    border-left: 1px solid black;
     cursor: pointer;               /* Pointer cursor for clickable element */
     display: inline-block;         /* Ensure it aligns with other links */
+}
+
+.dropbtn:hover {
+  color: red;
 }
 
 .topnav .dropdown-content {
@@ -139,46 +151,54 @@ margin: 20px;
 .hero img {
   max-width: 100%;
   display: block;
-  border: none !important;
-  padding: 0 !important;
 }
 
 
 #action {
-  height: 90px;
-  line-height: 28px;
   font-size: 1.2em;
-  
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+  padding: 0;
+  margin: 0;
+  height: 100px;
 }
 #action a {
   text-decoration: none;
-  color: #3ABEFF;
+  color: red;
 }
 #action a:hover {
   text-decoration: underline;
+  color: #C95F00;
+}
+
+.active {
+  color: #C95F00 !important;
 }
 
 .button {
   text-decoration: none;
-  background-color: #03A9F4;
+  background-color: black;
   color: white !important;
   padding: 7px 12px;
-  margin-top: 50px;
   border-radius: 6px;
   font-size: 1.2em;
   font-weight: 400;
-  position: relative;
-  top: 50%;
 }
 .button:hover {
-  background-color: #3ABEFF;
+  background-color: #C95F00;
   color: white;
-  text-decoration: none !important;
 }
 h1 {
   font-weight: 300;
   padding: 30px;
   text-align: center;
+  border: solid black 1px;
+}
+#recomandate {
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+  padding: 20px;
 }
 #recomandate p {
   margin-bottom: 30px;
@@ -197,13 +217,29 @@ flex: 50%;
 max-width: 50%;
 height: 100%;
 }
+#first-column {
+  width: 100%;
+  min-height: inherit;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+#second-column {
+  width: 100%;
+  min-height: inherit;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
 .column-4 {
   flex: 25%;
   max-width: 25%;
 }
 .row img {
   max-width: 80%;
-  border: 3px solid darkgray;
+  border: 3px solid black;
 }
 .row img:hover {
   transition: transform 1s ease;
@@ -216,14 +252,14 @@ section p {
   padding: 10px;
 }
 .footer-relative {
-  background: #616161;
+  background: black;
   padding: 10px 0;
   text-align: center;
   color: white;
   margin-top: 20px;
 }
 .footer-fixed {
-  background: #616161;
+  background: black;
   text-align: center;
   color: white;
   margin-top: 20px;
