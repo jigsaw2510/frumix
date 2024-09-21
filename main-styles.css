@@ -1,3 +1,6 @@
+
+/* GLOBAL STYLES START */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +9,7 @@ body, html {
 height: 100%;
 }
 
+/* Full background image end */
 body {
   margin: 0;
   padding: 0;
@@ -25,18 +29,10 @@ body {
   background-color: rgba(0, 0, 0, 0.01); /* Adjust the alpha to make it see-through */
   z-index: -5;
 }
-
 /* Full background image end */
 
 main {
   font-family: 'Roboto', sans-serif;
-}
-
-#logo {
-  height: 60px;
-  padding-left: 20px;
-  padding-right: 200px;
-  align-content: flex-start;
 }
 
 /* Basic styling for the navbar */
@@ -70,7 +66,7 @@ main {
 }
 
 .topnav a:hover {
-  color: red;
+  color: #C95F00;
 }
 
 .topnav .dropdown {
@@ -91,7 +87,7 @@ main {
 }
 
 .dropbtn:hover {
-  color: red;
+  color: #C95F00;
 }
 
 .topnav .dropdown-content {
@@ -120,20 +116,6 @@ main {
 .topnav .icon {
     display: none;
 }
-
-/* Media query for responsive design */
-@media screen and (max-width: 768px) {
-    .topnav a, .topnav .dropdown {
-        display: none;
-    }
-    .topnav .icon {
-        display: block;
-        color: white;
-        font-size: 24px;
-        cursor: pointer;
-    }
-}
-
 /* Basic styling for the navbar end */
 
 .flex-container {
@@ -270,17 +252,114 @@ section p {
   bottom : 0;
   width: 100%;
 }
-@media (max-width: 800px) {
-  .flex-container {
-      flex-direction: column;
-      height: auto;
-      position: relative;
-  }
-  #logo {
-      padding: 0;
-      margin-bottom: 20px;
-  }   
+
+/* GLOBAL STYLES END */
+
+/*Contact page styles */
+
+.contact {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border: solid black 1px;
+  margin-top: 20px;
 }
+.contact-element {
+  max-height: 100px;
+  margin: 10px;
+  text-align: center;
+}
+.title {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #C95F00;
+}
+.contact-element a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.contact-element a:hover {
+  color: #C95F00;
+  text-decoration: underline;
+}
+
+/*Contact page styles end*/
+
+
+/* MEDIA STYLES START */
+
+/* Responsive menu start */
+@media screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        height: auto;
+        position: relative;
+    }
+    .topnav {
+      margin: 0;
+      padding: 0;
+      height: 80px;
+    }
+    .topnav a, .topnav .dropdown {
+        display: none;
+    }
+    .topnav .icon {
+        display: block;
+        color: black;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+    .topnav.responsive {
+        position: relative;
+        display: block;
+        height: 100vh;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 20px;
+        border: none;
+    }
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+        border: none;
+    }
+    .topnav.responsive .dropdown-content {
+        position: relative;
+        background-color: #f9f9f9;
+        box-shadow: none;
+        margin-left: 0;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 1.5em;
+    }
+    .topnav.responsive #logo {
+      margin: 20px auto;
+    }
+    .topnav #logo-container {
+      margin: 0 auto;
+    }
+}
+/* Responsive menu end */
+
+/* Responsive content start */
 @media (max-width: 800px) {
   .button {
       clear: both;
@@ -322,39 +401,3 @@ h1 {
   max-width: 100%;
 }
 }
-
-/*Contact page styles */
-
-.contact {
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  border: solid black 1px;
-  margin-top: 20px;
-}
-.contact-element {
-  max-height: 100px;
-  margin: 10px;
-  text-align: center;
-}
-.title {
-  font-size: 1.5em;
-  margin-bottom: 5px;
-  color: #C95F00;
-}
-.contact-element a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-}
-.contact-element a:hover {
-  color: #C95F00;
-  text-decoration: underline;
-}
-
-/*Contact page styles end*/
