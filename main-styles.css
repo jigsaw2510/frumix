@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('bg-plywood-ps.jpg');
+  background-size: cover;        /* Ensures the image covers the entire area */
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  background-position: center;   /* Centers the image */
+  background-attachment: fixed;  /* Keeps the image fixed during scrolling */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.01); /* Adjust the alpha to make it see-through */
+  z-index: -5;
+}
+
+/* Full background image end */
+
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 200px;
+  align-content: flex-start;
+}
+
+/* Basic styling for the navbar */
+.topnav {
+    display: flex;               /* Flexbox ensures items align horizontally */
+    align-items: center;         /* Vertically aligns logo and menu items */
+    justify-content: space-between; /* Space items evenly if needed */
+    border: black solid 1px;
+}
+
+/* Styling for the logo */
+#logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;          /* Pushes menu items to the right */
+}
+
+#logo {
+    height: 40px;                /* Adjust the logo size as needed */
+}
+
+/* Menu item styling */
+.topnav a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.topnav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;              /* Remove button background */
+    border: none;                  /* Remove button border */
+    color: inherit;                /* Inherit the text color from .topnav a */
+    font: inherit;                 /* Inherit the font styling */
+    padding: 14px 16px;
+    cursor: pointer;               /* Pointer cursor for clickable element */
+    display: inline-block;         /* Ensure it aligns with other links */
+}
+
+.topnav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px black solid;
+}
+
+.topnav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Responsive icon for smaller screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .topnav a, .topnav .dropdown {
+        display: none;
+    }
+    .topnav .icon {
+        display: block;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+
+.flex-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 20px;
+}
+.hero {
+  padding: 0;
+  margin-top: 40px;
+}
+.hero img {
+  max-width: 100%;
+  display: block;
+  border: none !important;
+  padding: 0 !important;
+}
