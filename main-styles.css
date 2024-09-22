@@ -345,6 +345,7 @@ section p {
         padding: 0 15px;
     }
     .topnav.responsive {
+        width: 70%;
         position: fixed;
         left: 0;
         top: 0;
