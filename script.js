@@ -8,6 +8,18 @@ function myFunction() {
   }
 }
 
+// Function to close the menu if clicked outside
+function closeMenuOnClickOutside(event) {
+  var topnav = document.getElementById("myTopnav");
+  // Check if the click is outside the topnav and if the menu is open
+  if (topnav.className.includes("responsive") && !topnav.contains(event.target)) {
+    topnav.className = "topnav"; // Close the menu
+  }
+}
+
+// Attach the event listener to the document to detect clicks outside
+document.addEventListener("click", closeMenuOnClickOutside);
+
 // Debounce function to limit the rate at which a function is called
     function debounce(func, delay) {
       let timeoutId;
