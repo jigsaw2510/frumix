@@ -51,7 +51,7 @@ window.addEventListener("resize", debounce(adjustClass, 250));
 // Event listener for accessing whatsapp on desktop vs mobile
 document.addEventListener("DOMContentLoaded", function() {
     var whatsappLink = document.getElementById("whatsapp-link");
-    var phoneNumber = "40766591635"; // Your phone number with country code (no plus sign)
+    var phoneNumber = "40770659773"; // Your phone number with country code (no plus sign)
 
     // Check if the user is on a mobile device
     if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
