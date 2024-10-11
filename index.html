@@ -9,7 +9,6 @@
     <link rel="icon" type="image/x-icon" href="./logo/favicon.png">
 	 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="main-styles.css">
-
 </head>
 <body>
     <!-- Main Content -->
@@ -26,17 +25,18 @@
         <div class="social-media" id="last-social"><a href="https://www.tiktok.com/@frumix.ro" target="_BLANK"><img src="./logo/tiktok-logo.png"></a></div>
       </div>
       <a href="index.html" class="active menu-item">Home</a>
-      <a class="menu-item">Produse</a>
-      <a class="menu-item">Servicii</a>
-      <div class="dropdown">
-        <button class="dropbtn">Galerie
+      <!-- <div class="dropdown">
+        <button class="dropbtn">Produse
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a>Foto</a>
-          <a>Video</a>
+          <a>Fotogravura</a>
+          <a>Brelocuri</a>
+          <a>Coasters</a>
+          <a href="produse.html">Toate produsele</a>
         </div>
-      </div>
+      </div> -->
+      <a class="menu-item" href="produse.html">Produse</a>
       <a class="menu-item" href="despre.html">Despre</a>
       <a class="menu-item" href="contact.html" id="last-menu-item">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -57,34 +57,50 @@
     <h1>Produse recomandate</h1>
     <section class="row clear" id="recomandate">
         <div class="column-4">
-            <a href="contact.html"><img src="./images/breloc-catel-1.jpg"></a>
-            <p>Breloc catel 4x5 cm<br>20 lei</p>
-            <a href="contact.html"><img src="./images/coaster-skeleton.jpg"></a>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/breloc-catel-3.jpg"></a>
+            <p>Breloc catel cu nume 4x5 cm<br>15 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/coaster-skeleton.jpg"></a>
             <p>Coaster schelet 10cm<br>10 lei</p>
-            <a href="contact.html"><img src="./images/breloc-catel-3.jpg"></a>
-            <p>Breloc catel 4x5 cm<br>20 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/fotogravura-inima-20-cm.jpg"></a>
+            <p>Fotogravura stil inima 20 cm<br>80 lei</p>
+          </div>
         </div>
         <div class="column-4">
-            <a href="contact.html"><img src="./images/breloc-pisica-1.jpg"></a>
-            <p>Breloc pisica 4x5 cm<br>20 lei</p>
-            <a href="contact.html"><img src="./images/breloc-catel-2.jpg"></a>
-            <p>Breloc catel 4x5 cm<br>20 lei</p>
-            <a href="contact.html"><img src="./images/fotogravura-pergament-20x28.jpg"></a>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/breloc-pisica-1.jpg"></a>
+            <p>Breloc pisica 4x5 cm<br>15 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/sticker-magnet-10-cm.jpg"></a>
+            <p>Sticker cu magnet 10<br>20 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/fotogravura-pergament-20x28.jpg"></a>
             <p>Fotogravura stil pergament 20x28cm<br>80 lei</p>
+          </div>
         </div>
     </section>
     <div class="flex-container">
-    <a class="button clear">Vezi toate produsele</a>
+    <a class="button clear" href="produse.html">Vezi toate produsele</a>
+    </div>
+    <div id="date-comerciale">
+      <p>Zoom Arttibo Trading SRL</p>
+      <p>RO26827207</p>
+      <p>J23/1249/2010</p>
+      <p>Com. 1 Decembrie</p>
     </div>
     <!-- Footer -->
     <footer class="footer-relative" id="footer">
         &copy 2024 FRUMIX. Toate drepturile rezervate.
     </footer>
     </main>
-    <script type="text/javascript">
-    </script>
-</body>
     <script src="script.js">
         
     </script>
+</body>  
 </html>

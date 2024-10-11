@@ -1,331 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Toate produsele</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="icons8-camera-3d-fluency-32.png">
-    <title>Produsele noastre</title>
-    <style type="text/css">
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        body, html {
-          min-height: 100%;
-        }
-        .bg {
-          /* The image used */
-          background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("wedding_bg.jpg");
-
-          /* Full height */
-          height: 100%;
-
-          /* Center and scale the image nicely */
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-
-          /* Adjust background properties for smaller screens (mobile) */
-          @media (max-width: 800px) {
-            background-size: contain; /* or auto, or any other value that works for your design */
-            background-repeat: repeat;
-          }
-        }
-        main {
-            font-family: 'Roboto', sans-serif;
-        }
-        h1 {
-            text-align: center;
-            width: 50%;
-            padding: 10px;
-            margin: 50px auto 0 auto;
-            font-size: 1.5em;
-        }
-        
-        /* TOP NAV STYLE START */
-
-        /* Add a black background color to the top navigation */
-        .topnav {
-          position: fixed;
-            width: 100%;
-            left: 0;
-            top: 0;
-            margin: 0;
-            background-color: #FFF9FB;
-            z-index: 1;
-        }
-
-        /* Style the links inside the navigation bar */
-        .topnav a {
-          float: left;
-          display: block;
-          color: #03A9F4;
-          background-color: #FFF9FB;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 1.2em;
-        }
-
-        /* Add an active class to highlight the current page */
-        .active {
-          color: #2378a0;
-        }
-
-        /* Hide the link that should open and close the topnav on small screens */
-        .topnav .icon {
-          display: none;
-        }
-
-        /* Dropdown container - needed to position the dropdown content */
-        .dropdown {
-          float: left;
-          overflow: hidden;
-        }
-
-        /* Style the dropdown button to fit inside the topnav */
-        .dropdown .dropbtn {
-          font-size: 1.2em;
-          border: none;
-          outline: none;
-          color: #03A9F4;
-          padding: 14px 16px;
-          background-color: inherit;
-          font-family: inherit;
-          margin: 0;
-        }
-
-        /* Style the dropdown content (hidden by default) */
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f9f9f9;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-        }
-
-        /* Style the links inside the dropdown */
-        .dropdown-content a {
-          float: none;
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-          text-align: left;
-        }
-
-        /* Add a dark background on topnav links and the dropdown button on hover */
-        .topnav a:hover, .dropdown:hover .dropbtn {
-          background-color: #03A9F4;
-          color: white;
-        }
-
-        /* Add a grey background to dropdown links on hover */
-        .dropdown-content a:hover {
-          background-color: #ddd;
-          color: black;
-        }
-
-        /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-        .dropdown:hover .dropdown-content {
-          display: block;
-        }
-
-        /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-        @media screen and (max-width: 600px) {
-          .topnav a:not(:first-child), .dropdown .dropbtn {
-            display: none;
-          }
-          .topnav a.icon {
-            float: right;
-            display: block;
-            padding: 12px 16px;
-          }
-        }
-
-        /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-        @media screen and (max-width: 600px) {
-          .topnav.responsive {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-            margin: 0;
-            padding: 0;
-            background-color: rgba(0, 0, 0, 0.8);
-            z-index: 1;
-        }
-            .dropdown {
-                color: #03A9F4;
-                background-color: #FFF9FB;
-            }
-            h1 {
-                margin-top: 30px;
-            }
-          .topnav.responsive a.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-            padding: 12px 16px;
-          }
-          .topnav.responsive a {
-            float: none;
-            display: block;
-            text-align: left;
-          }
-          .topnav.responsive .dropdown {float: none;}
-          .topnav.responsive .dropdown-content {position: relative;}
-          .topnav.responsive .dropdown .dropbtn {
-            display: block;
-            width: 100%;
-            text-align: left;
-          }
-        }
-
-        /* TOP NAV STYLE END */
-
-
-        .flex-container {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          align-items: center;
-          margin: 20px;
-        }
-        @media (max-width: 800px) {
-            .flex-container {
-                flex-direction: column;
-                height: auto;
-                position: relative;
-            }
-            h1 {
-                text-align: center;
-                width: 80%;
-                padding: 10px;
-                margin: 50px auto 10px auto;
-                font-size: 1em;
-            }
-        }
-        .footer-relative {
-            background: #616161;
-            padding: 10px 0;
-            text-align: center;
-            color: white;
-            margin-top: 20px;
-        }
-        .footer-fixed {
-            background: #616161;
-            text-align: center;
-            color: white;
-            margin-top: 20px;
-            position : absolute;
-            padding: 10px 0;
-            bottom : 0;
-            width: 100%;
-        }
-        @media (max-width: 800px) {
-            .header {
-                margin-top: 20px !important;
-            }
-        }
-        .row {
-          display: flex;
-          flex-direction: row;
-          text-align: center;
-          flex-wrap: wrap;
-        }
-        /* Create four equal columns that sits next to each other */
-        .column {
-          flex: 25%;
-          max-width: 25%;
-        }
-        /* Responsive layout - makes a two column-layout instead of four columns */
-        @media (max-width: 800px) {
-          .column {
-            flex: 50%;
-            max-width: 50%;
-          }
-        }
-
-        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-        @media (max-width: 600px) {
-          .column {
-            flex: 100%;
-            max-width: 100%;
-          }
-        }
-        .row img {
-            max-width: 80%;
-            border: 3px solid darkgray;
-        }
-        .row img:hover {
-            transition: transform 1s ease;
-            transform: scale(1.05);
-        }
-        .row p {
-            padding: 10px;
-        }
-        section p {
-            padding: 10px;
-        }
-        p {
-            margin-bottom: 30px;
-        }
-    </style>
+    <link rel="icon" type="image/x-icon" href="./logo/favicon.png">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="main-styles.css">
 </head>
 <body class="bg">
     <!-- Main Content -->
     <main>
     <!-- Header -->
     <div class="topnav" id="myTopnav">
-      <a href="index.html">Home</a>
-      <a href="produse.html" class="active">Produse</a>
-      <a href="servicii.html">Servicii</a>
-      <div class="dropdown">
-        <button class="dropbtn">Galerie
+      <div id="logo-container">
+            <a href="index.html"><img src="./logo/frumix-logo-sectar-regular-6x1.3cm.png" id="logo"></a>
+      </div>
+      <div class="social-media-container">
+        <div class="social-media"><a href="https://web.whatsapp.com/send?phone=40770659773" target="_BLANK" id="whatsapp-link"><img src="./logo/whatsapp-logo.png"></a></div>
+        <div class="social-media"><a href="https://www.facebook.com/frumix.ro" target="_BLANK" id="facebook-link"><img src="./logo/facebook-logo.png"></a></div>
+        <div class="social-media"><a href="https://www.instagram.com/frumixro" target="_BLANK"><img src="./logo/instagram-logo.png"></a></div>
+        <div class="social-media" id="last-social"><a href="https://www.tiktok.com/@frumix.ro" target="_BLANK"><img src="./logo/tiktok-logo.png"></a></div>
+      </div>
+      <a href="index.html" class="menu-item">Home</a>
+      <!-- <div class="dropdown">
+        <button class="dropbtn">Produse
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="galerie_foto.html">Foto</a>
-          <a href="galerie_video.html">Video</a>
+          <a>Fotogravura</a>
+          <a>Brelocuri</a>
+          <a>Coasters</a>
+          <a href="produse.html">Toate produsele</a>
         </div>
-      </div>
-      <a href="despre.html">Despre</a>
-      <a href="contact.html" >Contact</a>
+      </div> -->
+      <a class="menu-item active" href="produse.html">Produse</a>
+      <a class="menu-item" href="despre.html">Despre</a>
+      <a class="menu-item" href="contact.html" id="last-menu-item">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      <!-- The above code &#9776 is the unicode for creating the menu icon -->
     </div>
-        <h1>Produse personalizate cu fotografiile tale preferate sau printari foto pe diferite formate si dimensiuni</h1>
-    <div class="row">
-        <div class="column" id="first-column">
-            <a href="contact.html"><img src="printari_foto.jpeg"></a>
-            <p>Printari foto</p>
+    <h1>Toate produsele</h1>
+    <section class="row clear" id="recomandate">
+        <div class="column-4" id="1">
+          <div class="product">
+            <a href="contact.html"><img src="./produse/breloc-catel-1.jpg"></a>
+            <p>Breloc catel<br>4x5 cm<br>15 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/ceas-masa-personalizat-15-cm.jpg"></a>
+            <p>Ceas masa personalizat cu personajul preferat<br>15 cm<br>120 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/fotogravura-tablou-20x28.jpg"></a>
+            <p>Fotogravura stil tablou<br>20x28cm<br>80 lei</p>
+          </div>
         </div>
-        <div class="column" id="second-column">
-            <a href="contact.html"><img src="breloc.jpeg"></a>
-            <p>Breloc personalizat</p>
+        <div class="column-4" id="2">
+          <div class="product">
+            <a href="contact.html"><img src="./produse/breloc-catel-2.jpg"></a>
+            <p>Breloc catel<br>4x5 cm<br>15 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/coaster-skeleton.jpg"></a>
+            <p>Coaster schelet 10cm<br>10 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/sticker-magnet-10-cm.jpg"></a>
+            <p>Sticker cu magnet 10 cm<br>20 lei</p>
+          </div>
         </div>
-        <div class="column" id="third-column">
-            <a href="contact.html"><img src="cana_personalizata.jpeg"></a>
-            <p>Cana personalizata</p>
+        <div class="column-4" id="3">
+          <div class="product">
+            <a href="contact.html"><img src="./produse/breloc-catel-3.jpg"></a>
+            <p>Breloc catel<br>4x5 cm<br>15 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/fotogravura-inima-20-cm.jpg"></a>
+            <p>Fotogravura stil inima<br>20 cm<br>80 lei</p>
+          </div>
         </div>
-        <div class="column" id="fourth-column">
-            <a href="contact.html"><img src="breloc_cu_poza.jpeg"></a>
-            <p>Breloc cu poza sau scris</p>
+        <div class="column-4" id="4">
+          <div class="product">
+            <a href="contact.html"><img src="./produse/breloc-pisica-1.jpg"></a>
+            <p>Breloc pisica<br>4x5 cm<br>15 lei</p>
+          </div>
+          <div class="product">
+            <a href="contact.html"><img src="./produse/fotogravura-pergament-20x28.jpg"></a>
+            <p>Fotogravura stil pergament<br>20x28cm<br>80 lei</p>
+          </div>
         </div>
+    </section>
+    <div id="date-comerciale">
+      <p>Zoom Arttibo Trading SRL</p>
+      <p>RO26827207</p>
+      <p>J23/1249/2010</p>
+      <p>Com. 1 Decembrie</p>
     </div>
-    <!-- Hero -->
+    <!-- Footer -->
     <footer class="footer-relative" id="footer">
-        &copy 2024 CIUBUC FOTO & VIDEO. Toate drepturile rezervate.
+        &copy 2024 FRUMIX. Toate drepturile rezervate.
     </footer>
     </main>
-</body>
     <script src="script.js">
         
     </script>
+  </body>
 </html>

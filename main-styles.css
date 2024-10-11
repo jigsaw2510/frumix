@@ -102,6 +102,7 @@ body {
 
 .dropbtn:hover {
   color: #C95F00;
+  cursor: pointer;
 }
 
 .topnav .dropdown-content {
@@ -110,9 +111,12 @@ body {
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    cursor: pointer;
 }
 .topnav .dropdown-content a {
   padding: 3px 50px;
+  text-decoration: none;
+  color: black;
 }
 
 .topnav .dropdown:hover .dropdown-content {
@@ -189,6 +193,8 @@ margin: 20px;
 .button:hover {
   background-color: #C95F00;
   color: white;
+  cursor: pointer;
+  text-decoration: underline;
 }
 h1 {
   font-weight: 300;
@@ -239,6 +245,14 @@ height: 100%;
   flex: 25%;
   max-width: 25%;
 }
+.product {
+  width: 100%;
+  min-height: 300px;
+}
+/*.product p {
+  margin: 5px 0 10px 0 !important;
+  padding: 0 !important;
+}*/
 .row img {
   max-width: 80%;
   border: 3px solid black;
@@ -251,6 +265,12 @@ height: 100%;
   padding: 10px;
 }
 section p {
+  padding: 10px;
+}
+#date-comerciale {
+  text-align: center;
+  border: 1px black solid;
+  margin: 0 auto;
   padding: 10px;
 }
 .footer-relative {

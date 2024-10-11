@@ -30,23 +30,23 @@ document.addEventListener("click", closeMenuOnClickOutside);
     }
     
 // JavaScript to change the class based on content height and window height
-    function adjustClass() {
-    var footer = document.getElementById("footer");
-    var contentHeight = document.body.scrollHeight; // Total content height, including padding
-    var windowHeight = window.innerHeight; // Height of the window
+//     function adjustClass() {
+//     var footer = document.getElementById("footer");
+//     var contentHeight = document.body.scrollHeight; // Total content height, including padding
+//     var windowHeight = window.innerHeight; // Height of the window
 
-    if (contentHeight <= windowHeight) {
-        footer.className = "footer-fixed";
-    } else {
-        footer.className = "footer-relative";
-    }
-}
+//     if (contentHeight <= windowHeight) {
+//         footer.className = "footer-fixed";
+//     } else {
+//         footer.className = "footer-relative";
+//     }
+// }
 
 // Initial adjustment on page load
-adjustClass();
+// adjustClass();
 
-// Event listener for window resize with debounce
-window.addEventListener("resize", debounce(adjustClass, 250));
+// // Event listener for window resize with debounce
+// window.addEventListener("resize", debounce(adjustClass, 250));
 
 // Event listener for accessing whatsapp on desktop vs mobile
 document.addEventListener("DOMContentLoaded", function() {
