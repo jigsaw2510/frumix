@@ -249,6 +249,15 @@ height: 100%;
   width: 100%;
   min-height: 300px;
 }
+.product-name {
+  font-weight: 500;
+}
+.product-size {
+  color: grey;
+}
+.product-price {
+  color: #C95F00;
+}
 /*.product p {
   margin: 5px 0 10px 0 !important;
   padding: 0 !important;
