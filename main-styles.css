@@ -247,7 +247,7 @@ height: 100%;
 }
 .product {
   width: 100%;
-  min-height: 300px;
+  height: 400px;
 }
 .product-name {
   font-weight: 500;
