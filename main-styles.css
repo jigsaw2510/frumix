@@ -305,7 +305,6 @@ section p {
   cursor: pointer;
 }
 .dropdown-content-bottom {
-  display: flex;
   flex-direction: column;
   font-size: 0.8em;
 }
@@ -324,6 +323,17 @@ section p {
   margin: 20px auto;
   padding: 10px;
 }
+
+/* Toggle dropdown-bottom content visibility */
+.toggle-content {
+  display: none;
+}
+
+.toggle-content.show {
+  display: flex;
+}
+/* Toggle dropdown-bottom content visibility */
+
 .footer-relative {
   background: black;
   padding: 20px 0;
@@ -555,4 +565,10 @@ section p {
   flex: 100%;
   max-width: 100%;
 }
+}
+
+@media screen and (min-width: 769px) {
+  .dropdown-content-bottom {
+    display: flex; /* Show dropdown content by default */
+  }
 }

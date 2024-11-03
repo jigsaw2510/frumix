@@ -79,3 +79,20 @@ document.addEventListener("DOMContentLoaded", function() {
         facebookLink.href = facebookPageURL;
     }
 });
+
+// Toggle dropdown-bottom content visibility
+
+document.querySelectorAll('.toggle-dropdown').forEach(button => {
+  button.addEventListener('click', function() {
+    // Only toggle when viewport is 768px or smaller
+    if (window.innerWidth <= 768) {
+      // Select the following sibling dropdown content for this button
+      const dropdownContent = button.parentElement.nextElementSibling;
+
+      // Toggle the 'show' class only if it has the 'dropdown-content-bottom' class
+      if (dropdownContent && dropdownContent.classList.contains('dropdown-content-bottom')) {
+        dropdownContent.classList.toggle('show');
+      }
+    }
+  });
+});
