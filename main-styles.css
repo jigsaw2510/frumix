@@ -23,6 +23,12 @@ body {
 }
 /* Full background image end */
 
+.announcement {
+  background-color: limegreen;
+  text-align: center;
+  padding: 5px 0;
+}
+
 /* Basic styling for the navbar start*/
 .topnav {
     display: flex;               /* Flexbox ensures items align horizontally */
@@ -275,6 +281,42 @@ height: 100%;
 }
 section p {
   padding: 10px;
+}
+.dropdown-bottom {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.dropbtn-bottom {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.fa {
+  margin-top: 4px;
+}
+.dropbtn-bottom:hover {
+  cursor: pointer;
+}
+.dropdown-content-bottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+}
+.dropdown-content-bottom p {
+  margin: 5px 0;
+  padding: 0;
+}
+.content-bottom-item {
+  margin: 5px 0;
+  text-decoration: none;
+  color: black;
 }
 #date-comerciale {
   text-align: center;
