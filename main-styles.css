@@ -251,24 +251,6 @@ height: 100%;
   flex: 25%;
   max-width: 25%;
 }
-.product {
-  width: 100%;
-  min-height: 400px;
-  text-overflow: ellipsis;
-}
-.product-name {
-  font-weight: 500;
-}
-.product-size {
-  color: grey;
-}
-.product-price {
-  color: #C95F00;
-}
-.product p {
-  margin: 5px 0 10px 0 !important;
-  padding: 0 !important;
-}
 .row img {
   max-width: 80%;
   border: 3px solid black;
@@ -354,6 +336,69 @@ section p {
 }
 
 /* GLOBAL STYLES END */
+
+/* Produse page styles */
+
+/* Search bar styling */
+#search-container {
+    margin: 20px;
+    text-align: center;
+}
+
+#search-bar {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Search bar styling end */
+
+/* Products section styling */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible columns */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding around the grid */
+}
+
+.produs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px; /* Ensures consistent height */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* Optional background for better visibility */
+}
+.produs:hover {
+  color: red;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Optional shadow for aesthetics */
+}
+.produs img {
+    max-width: 100%; /* Images scale to fit the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent inline space below the image */
+    margin: 0 auto; /* Center the image horizontally if needed */
+}
+.product-name {
+  font-weight: 500;
+}
+.product-size {
+  color: grey;
+}
+.product-price {
+  color: #C95F00;
+}
+
+/* Products section styling end */
+
+/* Produse page styles end */
 
 /*Contact page styles */
 

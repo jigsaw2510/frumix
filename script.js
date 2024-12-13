@@ -96,3 +96,24 @@ document.querySelectorAll('.toggle-dropdown').forEach(button => {
     }
   });
 });
+
+// Search functionality start
+
+document.addEventListener("DOMContentLoaded", () => {
+    const searchBar = document.getElementById("search-bar");
+    const products = document.querySelectorAll(".produs");
+
+    searchBar.addEventListener("input", () => {
+        const query = searchBar.value.toLowerCase();
+        products.forEach(product => {
+            const productName = product.querySelector(".product-name").textContent.toLowerCase();
+            if (productName.includes(query)) {
+                product.style.display = "block"; // Show matching product
+            } else {
+                product.style.display = "none"; // Hide non-matching product
+            }
+        });
+    });
+});
+
+// Search functionality end
