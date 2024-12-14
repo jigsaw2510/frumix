@@ -164,6 +164,7 @@ margin: 20px;
 .hero img {
   max-width: 100%;
   display: block;
+  transition: opacity 1s ease-in-out; /* Smooth fade-in and fade-out effect */
 }
 
 

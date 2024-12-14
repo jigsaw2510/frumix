@@ -117,3 +117,26 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Search functionality end
+
+// Banner images rotation
+
+document.addEventListener("DOMContentLoaded", function () {
+    const images = [
+        "./images/banner-tablouri-canvas-1920x586.jpg", 
+        "./images/banner-tablouri-lemn-1920x586.jpg", 
+        "./images/banner-coastere-1920x586.jpg"
+    ]; // List of image URLs
+    const banner = document.getElementById("banner");
+    let currentImageIndex = 0;
+
+    setInterval(() => {
+        currentImageIndex = (currentImageIndex + 1) % images.length; // Move to the next image, loop back if at the end
+        banner.style.opacity = 0; // Fade out
+        setTimeout(() => {
+            banner.src = images[currentImageIndex]; // Change image
+            banner.style.opacity = 1; // Fade in
+        }, 1000); // Matches the CSS transition duration
+    }, 10000); // 10-second interval
+});
+
+//Banner images rotation end
