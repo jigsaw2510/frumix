@@ -159,6 +159,7 @@ margin: 20px;
   border-left: solid black 1px;
   border-right: solid black 1px;
   border-bottom: solid black 1px;
+  border-top: solid black 1px;
 }
 .hero img {
   max-width: 100%;
