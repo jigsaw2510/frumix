@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>FRUMIX</title>
+    <title>Produs</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="./logo/favicon.png">
@@ -36,24 +36,60 @@
         </div>
       </div> -->
       <a class="menu-item" href="produse.html">Produse</a>
-      <a class="menu-item active" href="despre.html">Despre</a>
+      <a class="menu-item" href="despre.html">Despre</a>
       <a class="menu-item" href="contact.html" id="last-menu-item">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
       <!-- The above code &#9776 is the unicode for creating the menu icon -->
     </div>
-    <h1 id="about">   
-            Bine ați venit la frumix.ro, locul unde tehnologia și arta se îmbină pentru a crea produse unice, personalizate prin gravură laser de înaltă precizie. Suntem o echipă pasionată de detalii, dedicată realizării unor produse care reflectă perfect dorințele clienților noștri.
-            <br><br>
-            Specializați în gravura pe lemn, MDF și alte materiale de calitate, oferim o gamă variată de produse, de la decorațiuni și cadouri personalizate, până la proiecte complexe pentru evenimente speciale. Fiecare produs este realizat cu atenție maximă la detalii, folosind tehnologie de ultimă generație pentru a asigura o execuție impecabilă.
-            <br><br>
-            Ne mândrim cu capacitatea noastră de a oferi soluții creative și personalizate pentru fiecare proiect. Indiferent dacă este vorba de un cadou special sau de elemente de branding, ne angajăm să livrăm produse care spun o poveste și care sunt realizate la cele mai înalte standarde.
-            <br><br>
-            Vă invităm să explorați oferta noastră și să descoperiți cum putem adăuga o notă personală ideilor dvs. Vă mulțumim că ați ales frumix.ro și așteptăm cu nerăbdare să lucrăm împreună pentru a crea ceva cu adevărat special!
-    </h1>
-    
-    <!-- Informatii si altele -->
+    <nav class="breadcrumb">
+        <a href="index.html">Home</a> &gt; 
+        <a href="produse.html">Produse</a> &gt; 
+        <span>Breloc personalizat cu animalutul tau</span>
+    </nav>
 
-    <section class="row clear" id="bottom-info">
+    <!-- Product Section -->
+    <section class="product-page">
+        <!-- Product Images -->
+        <div class="product-images">
+            <img src="produse/breloc-pisica-1.jpg" alt="Product Image 1" id="main-image">
+            <div class="thumbnails">
+                <img src="produse/breloc-pisica-1.jpg" alt="Thumbnail 1" class="thumbnail">
+                <img src="produse/breloc-catel-2.jpg" alt="Thumbnail 2" class="thumbnail">
+                <img src="produse/breloc-catel-1.jpg" alt="Thumbnail 3" class="thumbnail">
+                <img src="produse/breloc-catel-3.jpg" alt="Thumbnail 4" class="thumbnail">
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <p class="product-title">Breloc personalizat cu animalutul tau</p>
+            <p class="price">Pret: 15 lei</p>
+            <!-- <div class="add-to-cart">
+                <button class="button">Adauga in cos</button>
+            </div> -->
+            <!-- <p class="availability">In Stock</p> -->
+            <a href="contact.html" class="button">Comanda</a>
+            <div class="description">
+                <p class="sub-title">Descriere produs</p>
+                <p>
+                  Material: lemn<br>
+                  Dimensiuni: 4x5 cm<br>
+                  Grosime: 3-4mm<br>
+                </p>
+                <p>
+                  Imaginile sunt cu titlu de prezentare, brelocul va fi personalizat cu poza si numele animalutului dumneavoastra. La comenzi de peste 100 lei livrarea va fi gratis.
+                </p>
+                <p>
+                  Livrare: 2-5 zile lucratoare.
+                  Predare personala in Bucuresti, livrare prin Fan Courier in celelalte zone ale tarii.
+                </p>
+            </div>
+
+            <!-- Add to Cart Section -->
+            
+        </div>
+    </section>
+    <section class="row clear">
       <div class="column-4">
         <div class="dropdown-bottom">
           <button class="dropbtn-bottom toggle-dropdown">Informatii</button><i class="fa fa-caret-down fa-lg"></i>
@@ -65,7 +101,19 @@
           <a href="livrare.html" class="content-bottom-item">Politica de livrare</a>
         </div>
       </div>
-      
+      <div class="column-4">
+        <div class="dropdown-bottom">
+          <button class="dropbtn-bottom toggle-dropdown">Utile</button><i class="fa fa-caret-down fa-lg"></i>
+        </div>
+        <div class="dropdown-content-bottom toggle-content">
+          <!-- <a href="despre.html" class="content-bottom-item">Metode de plata</a>
+          <a href="" class="content-bottom-item">Politica de retur</a>
+          <a href="" class="content-bottom-item">Garantia produselor</a> -->
+          <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO" class="content-bottom-item" target="_BLANK">Solutionarea online a litigiilor</a>
+          <a href="https://anpc.ro/" class="content-bottom-item" target="_BLANK">ANPC</a>
+          <a href="https://anpc.ro/ce-este-sal/" class="content-bottom-item" target="_BLANK">ANPC - SAL</a>
+        </div>
+      </div>
       <div class="column-4">
         <div class="dropdown-bottom">
           <button class="dropbtn-bottom toggle-dropdown">Date comerciale</button><i class="fa fa-caret-down fa-lg"></i>
@@ -86,19 +134,6 @@
             <p>0766591635</p>
             <p>comenzi@frumix.ro</p>
           </div>
-      </div>
-      <div class="column-4">
-        <div class="dropdown-bottom">
-          <button class="dropbtn-bottom toggle-dropdown">Mai mult</button><i class="fa fa-caret-down fa-lg"></i>
-        </div>
-        <div class="dropdown-content-bottom toggle-content">
-          <!-- <a href="despre.html" class="content-bottom-item">Metode de plata</a>
-          <a href="" class="content-bottom-item">Politica de retur</a>
-          <a href="" class="content-bottom-item">Garantia produselor</a> -->
-          <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO" class="content-bottom-item" target="_BLANK">Solutionarea online a litigiilor</a>
-          <a href="https://anpc.ro/" class="content-bottom-item" target="_BLANK">ANPC</a>
-          <a href="https://anpc.ro/ce-este-sal/" class="content-bottom-item" target="_BLANK">ANPC - SAL</a>
-        </div>
       </div>
     </section>
     <footer class="footer-relative" id="footer">
