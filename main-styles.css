@@ -489,9 +489,12 @@ section p {
 
 .thumbnails {
     display: flex;
+    flex-wrap: wrap; /* Allows thumbnails to wrap into rows */
     gap: 10px;
     justify-content: center;
     margin-bottom: 10px;
+    max-width: 280px; /* Set max width to accommodate 4 thumbnails in one row */
+    margin: 0 auto; /* Center the thumbnails container */
 }
 
 .thumbnail {
@@ -503,6 +506,7 @@ section p {
     transition: transform 0.2s, border-color 0.2s;
     border: 1px solid lightgray;
 }
+
 .thumbnail:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
