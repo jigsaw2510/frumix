@@ -577,6 +577,64 @@ section p {
 
 /* Product page styles end */
 
+/* Checkout page styles start */
+
+#checkout {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+#cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item p {
+  margin: 0;
+}
+
+/* Cart icon start */
+.cart-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.cart-icon img {
+    width: 30px; /* Icon size */
+    height: 30px;
+    cursor: pointer;
+}
+
+.cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(50%, -50%);
+    font-weight: bold;
+}
+/* Cart icon end */
+/* Checkout page styles end */
+
 /* MEDIA STYLES START */
 
 /* Responsive menu start */
