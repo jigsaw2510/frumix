@@ -1,9 +1,21 @@
 <div id="checkout">
-  <h1>Cos de cumparaturi</h1>
-  <div id="cart-items"></div>
-  <div id="cart-summary">
-    <p>Total: <span id="cart-total">0</span> RON</p>
-    <button id="checkout-button">Checkout</button>
-  </div>
+    <h1>Coș de cumpărături</h1>
+
+    <!-- Empty Cart Message -->
+    <p id="empty-cart-message" style="display: none;">Coșul tău este gol.</p>
+
+    <div id="cart-items"></div>
+
+    <div id="cart-summary">
+        <p>Total: <span id="cart-total">0</span> lei</p>
+        
+        <button id="checkout-button" class="checkout-btn">Finalizează Comanda</button>
+        <a href="index.html" class="back-to-shop">← Continuă cumpărăturile</a>
+    </div>
 </div>
+
+<!-- Include JavaScript -->
 <script src="js/cart.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/dropdown.js"></script>

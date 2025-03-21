@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Update the page with product data
             document.getElementById("product-title").textContent = product.name;
-            document.getElementById("product-price").textContent = `Pret: ${product.price} ${product.currency}`;
+            document.getElementById("product-price").textContent = `${product.price} lei`;
             document.getElementById("product-material").textContent = `Material: ${product.material}`;
             document.getElementById("product-dimensions").textContent = `Dimensiuni: ${product.dimensions}`;
             document.getElementById("product-thickness").textContent = `Grosime: ${product.thickness}`;
@@ -78,4 +78,47 @@ document.addEventListener("DOMContentLoaded", function () {
         let value = parseInt(quantityInput.value);
         quantityInput.value = value + 1;
     });
+});
+
+// Add to cart logic
+
+document.addEventListener("DOMContentLoaded", function () {
+    const addToCartButton = document.getElementById("add-to-cart");
+    const quantityInput = document.getElementById("quantity");
+
+    if (!addToCartButton || !quantityInput) return;
+
+    addToCartButton.addEventListener("click", function () {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+        const product = {
+            name: document.getElementById("product-title").textContent,
+            price: parseFloat(document.getElementById("product-price").textContent.replace(" lei", "")),
+            quantity: parseInt(quantityInput.value),
+            image: document.getElementById("main-image").src // Optional: store product image
+        };
+
+        // Check if the product already exists in cart
+        const existingProduct = cart.find((item) => item.name === product.name);
+        if (existingProduct) {
+            existingProduct.quantity += product.quantity;
+        } else {
+            cart.push(product);
+        }
+
+        localStorage.setItem("cart", JSON.stringify(cart));
+
+        // Update cart count in navbar
+        updateCartCount();
+        alert("Produs adăugat în coș!");
+    });
+
+    function updateCartCount() {
+        const cartCount = document.querySelector(".cart-count");
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        const totalQuantity = cart.reduce((sum, item) => sum + item.quantity, 0);
+        cartCount.textContent = totalQuantity;
+    }
+
+    updateCartCount(); // Refresh count on page load
 });
