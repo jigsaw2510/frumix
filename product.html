@@ -48,42 +48,46 @@
     </nav>
 
     <!-- Product Section -->
-    <section class="product-page">
-        <!-- Product Images -->
-        <div class="product-images">
-            <img src="produse/breloc-pisica-1.jpg" alt="Product Image 1" id="main-image">
-            <div class="thumbnails">
-                <img src="produse/breloc-pisica-1.jpg" alt="Thumbnail 1" class="thumbnail">
-                <img src="produse/breloc-catel-2.jpg" alt="Thumbnail 2" class="thumbnail">
-                <img src="produse/breloc-catel-1.jpg" alt="Thumbnail 3" class="thumbnail">
-                <img src="produse/breloc-catel-3.jpg" alt="Thumbnail 4" class="thumbnail">
+        <section class="product-page">
+            <!-- Product Images -->
+            <div class="product-images">
+                <img src="produse/breloc-pisica-1.jpg" alt="Product Image 1" id="main-image">
+                <div class="thumbnails">
+                    <img src="produse/breloc-pisica-1.jpg" alt="Thumbnail 1" class="thumbnail">
+                    <img src="produse/breloc-catel-2.jpg" alt="Thumbnail 2" class="thumbnail">
+                    <img src="produse/breloc-catel-1.jpg" alt="Thumbnail 3" class="thumbnail">
+                    <img src="produse/breloc-catel-3.jpg" alt="Thumbnail 4" class="thumbnail">
+                </div>
             </div>
-        </div>
 
-        <!-- Product Details -->
-        <div class="product-details">
-            <p class="product-title">Breloc personalizat cu animalutul tau</p>
-            <p class="price">Pret: 15 lei</p>
-            <!-- <div class="add-to-cart">
-                <button class="button">Adauga in cos</button>
-            </div> -->
-            <!-- <p class="availability">In Stock</p> -->
-            <a href="contact.html" class="button">Comanda</a>
-            <div class="description">
-                <p class="sub-title">Descriere produs</p>
-                <p>
-                  Material: lemn<br>
-                  Dimensiuni: 4x5 cm<br>
-                  Grosime: 3-4mm<br>
-                </p>
-                <p>
-                  Imaginile sunt cu titlu de prezentare, brelocul va fi personalizat cu poza si numele animalutului dumneavoastra. La comenzi de peste 100 lei livrarea va fi gratis.
-                </p>
-                <p>
-                  Livrare: 2-5 zile lucratoare.
-                  Predare personala in Bucuresti, livrare prin Fan Courier in celelalte zone ale tarii.
-                </p>
-            </div>
+            <!-- Product Details -->
+            <!-- Product Details -->
+    <div class="product-details">
+        <p class="product-title" id="product-title"></p>
+        <p class="price" id="product-price"></p>
+        
+        <div class="quantity-selector">
+          <label for="quantity">Cantitate:</label>
+          <div class="quantity-controls">
+              <button class="quantity-btn minus">−</button>
+              <input type="text" id="quantity" value="1" min="1" readonly>
+              <button class="quantity-btn plus">+</button>
+          </div>
+      </div>
+
+
+        <button id="add-to-cart" class="button">Adauga in cos</button>
+
+        <div class="description">
+            <p class="sub-title">Descriere produs</p>
+            <p id="product-material"></p>
+            <p id="product-dimensions"></p>
+            <p id="product-thickness"></p>
+            <p id="product-description"></p>
+            <p id="product-shipping"></p>
+        </div>
+    </div>
+
 
             <!-- Add to Cart Section -->
             
@@ -140,8 +144,11 @@
         &copy 2024 FRUMIX. Toate drepturile rezervate.
     </footer>
     </main>
-    <script src="script.js">
-        
-    </script>
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/product-page.js"></script>
   </body>
 </html>

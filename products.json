@@ -1,0 +1,35 @@
+[
+  {
+    "id": "breloc-animal",
+    "name": "Breloc personalizat cu animalutul tau",
+    "price": 15,
+    "currency": "lei",
+    "description": "Imaginile sunt cu titlu de prezentare, brelocul va fi personalizat cu poza si numele animalutului dumneavoastra. Dupa plasarea comenzii va vom contacta pentru a stabili toate detaliile: imagini, text, mesaje etc. Toate comenzile beneficiaza de previzualizare digitala gratuita si vom intra in faza de productie DOAR cu acordul final al clientului, cu alte cuvinte veti putea vedea inainte cum va arata aproximativ produsul personalizat de dumneavoastra.",
+    "material": "Lemn",
+    "dimensions": "4x5 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/breloc-pisica-1.jpg",
+      "produse/breloc-catel-2.jpg",
+      "produse/breloc-catel-1.jpg",
+      "produse/breloc-catel-3.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "cutie-gravata",
+    "name": "Cutie din lemn gravata",
+    "price": 30,
+    "currency": "lei",
+    "description": "Cutie eleganta din lemn cu gravura personalizata.",
+    "material": "Lemn",
+    "dimensions": "10x10x5 cm",
+    "thickness": "5mm",
+    "images": [
+      "produse/cutie-gravata-1.jpg",
+      "produse/cutie-gravata-2.jpg",
+      "produse/cutie-gravata-3.jpg"
+    ],
+    "shipping": "Livrare gratuita pentru comenzi peste 150 lei."
+  }
+]
