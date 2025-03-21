@@ -48,8 +48,7 @@ function renderCart() {
             const cartItem = document.createElement("div");
             cartItem.classList.add("cart-item");
             cartItem.innerHTML = `
-                <p>${item.name}</p>
-                <input type="number" value="${item.quantity}" min="1" data-index="${index}">
+                <p>${item.name} x ${item.quantity} buc.</p>
                 <p>${itemTotal} lei</p>
             `;
 
@@ -62,26 +61,168 @@ function renderCart() {
 
 
 
+// document.addEventListener("DOMContentLoaded", () => {
+//     renderCart();
+//     updateCartIcon();
+
+//     const checkoutButton = document.getElementById("checkout-button");
+//     if (checkoutButton) {
+//         checkoutButton.addEventListener("click", () => {
+
+//             // Prevent the form from submitting and page from refreshing
+//             event.preventDefault();
+
+//             // Get the form fields
+//             const firstName = document.getElementById("first-name");
+//             const lastName = document.getElementById("last-name");
+//             const phoneNumber = document.getElementById("phone");
+//             const emailAddress = document.getElementById("email");
+//             const deliveryAddress = document.getElementById("address");
+
+//             // Check if any of the fields are empty
+//             let isFormValid = true;
+//             let errorMessage = "";
+
+//             if (!firstName.value.trim()) {
+//                 isFormValid = false;
+//                 errorMessage += "Vă rugăm să completați câmpul Nume.\n";
+//             }
+//             if (!lastName.value.trim()) {
+//                 isFormValid = false;
+//                 errorMessage += "Vă rugăm să completați câmpul Prenume.\n";
+//             }
+//             if (!phoneNumber.value.trim()) {
+//                 isFormValid = false;
+//                 errorMessage += "Vă rugăm să completați câmpul Număr de telefon.\n";
+//             }
+//             if (!emailAddress.value.trim()) {
+//                 isFormValid = false;
+//                 errorMessage += "Vă rugăm să completați câmpul Adresă de email.\n";
+//             }
+//             if (!deliveryAddress.value.trim()) {
+//                 isFormValid = false;
+//                 errorMessage += "Vă rugăm să completați câmpul Adresă de livrare.\n";
+//             }
+
+//             // If the form is not valid, show the error message
+//             if (!isFormValid) {
+//                 alert(errorMessage);
+//                 return;
+//             }
+
+//             // Additional validation for email and phone format
+//             const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+//             if (!emailRegex.test(emailAddress.value.trim())) {
+//                 alert("Vă rugăm să introduceți o adresă de e-mail validă.");
+//                 return;
+//             }
+
+//             const phoneRegex = /^[0-9]+$/;
+//             if (!phoneRegex.test(phoneNumber.value.trim())) {
+//                 alert("Vă rugăm să introduceți un număr de telefon valid.");
+//                 return;
+//             }
+
+//             // Check if there are products in the cart
+//             if (cart.length === 0) {
+//                 alert("Coșul este gol! Adaugă produse înainte de a finaliza comanda.");
+//                 return;
+//             }
+
+//             // If all fields are valid, proceed with the checkout process
+//             cart = [];
+//             saveCart();
+//             alert("Comanda finalizată!");
+//             renderCart();
+//             window.location.href = "multumim.html"; // Redirect to a confirmation page
+//         });
+//     }
+// });
+
 document.addEventListener("DOMContentLoaded", () => {
     renderCart();
     updateCartIcon();
     const checkoutButton = document.getElementById("checkout-button");
-    if (checkoutButton) {
-        checkoutButton.addEventListener("click", () => {
-            if (cart.length === 0) {
-                alert("Coșul este gol! Adaugă produse înainte de a finaliza comanda.");
-                return;
-            }
+    const cartDataInput = document.getElementById("cart-data");
 
-            // Clear the cart and save the change
-            cart = [];
-            saveCart();
-            alert("Comanda finalizată!");
-            renderCart();
-            window.location.href = "multumim.html"; // Redirect to a confirmation page
-        });
-    }
+    checkoutButton.addEventListener("click", (e) => {
+        // Prevent form submission initially to validate fields
+        e.preventDefault();
+
+        // Collect form data
+        const firstName = document.getElementById("first-name");
+        const lastName = document.getElementById("last-name");
+        const phoneNumber = document.getElementById("phone");
+        const emailAddress = document.getElementById("email");
+        const deliveryAddress = document.getElementById("address");
+
+        // Check if any of the fields are empty
+        let isFormValid = true;
+        let errorMessage = "";
+
+        if (!firstName.value.trim()) {
+            isFormValid = false;
+            errorMessage += "Vă rugăm să completați câmpul Nume.\n";
+        }
+        if (!lastName.value.trim()) {
+            isFormValid = false;
+            errorMessage += "Vă rugăm să completați câmpul Prenume.\n";
+        }
+        if (!phoneNumber.value.trim()) {
+            isFormValid = false;
+            errorMessage += "Vă rugăm să completați câmpul Număr de telefon.\n";
+        }
+        if (!emailAddress.value.trim()) {
+            isFormValid = false;
+            errorMessage += "Vă rugăm să completați câmpul Adresă de email.\n";
+        }
+        if (!deliveryAddress.value.trim()) {
+            isFormValid = false;
+            errorMessage += "Vă rugăm să completați câmpul Adresă de livrare.\n";
+        }
+
+        // If the form is not valid, show the error message
+        if (!isFormValid) {
+            alert(errorMessage);
+            return;
+        }
+
+        // Additional validation for email and phone format
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (!emailRegex.test(emailAddress.value.trim())) {
+            alert("Vă rugăm să introduceți o adresă de e-mail validă.");
+            return;
+        }
+
+        const phoneRegex = /^[0-9]+$/;
+        if (!phoneRegex.test(phoneNumber.value.trim())) {
+            alert("Vă rugăm să introduceți un număr de telefon valid.");
+            return;
+        }
+
+        // Check if there are products in the cart
+        const cartEmpty = JSON.parse(localStorage.getItem("cart")) || [];
+        if (cartEmpty.length === 0) {
+            alert("Coșul este gol! Adaugă produse înainte de a finaliza comanda.");
+            return;
+        }
+
+        // Populate the hidden input field with the cart data (as JSON)
+        cartDataInput.value = JSON.stringify(cart);
+
+        // If all fields are valid, proceed with the checkout process
+        cart = [];
+        saveCart();
+        alert("Comanda finalizată!");
+        renderCart();
+        window.location.href = "multumim.html"; // Redirect to a confirmation page
+
+        // Now submit the form
+        document.querySelector("form").submit();
+    });
 });
+
+
 
 // Run this function only when necessary
 document.addEventListener("DOMContentLoaded", () => {
@@ -95,7 +236,6 @@ document.addEventListener("DOMContentLoaded", () => {
 function updateCartIcon() {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
     let totalQuantity = cart.reduce((sum, item) => sum + item.quantity, 0);
-    console.log(totalQuantity);  // Log inside the function
     const cartIcon = document.getElementById("cart-icon-quantity");
     if (cartIcon) {
         cartIcon.textContent = totalQuantity;

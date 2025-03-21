@@ -14,7 +14,11 @@
     <!-- Main Content -->
     <main>
     <!-- Header -->
-    <div class="announcement">Transport gratuit la comenzi de peste 100 lei!</div>
+    <a href="checkout.html" class="cart-icon" aria-label="View shopping cart">
+        <img src="logo/shopping-cart-icon.png" alt="Shopping Cart" />
+        <span class="cart-count" id="cart-icon-quantity">0</span>
+    </a>
+    <div class="announcement">Livrare gratuita in Bucuresti indiferent de valoarea comenzii! <br>Livrare gratuita in toata tara la comenzi de peste 50 lei!</div>
     <div class="topnav" id="myTopnav">
       <div id="logo-container">
             <a href="index.html"><img src="./logo/frumix-logo-sectar-regular-6x1.3cm.png" id="logo"></a>
@@ -49,7 +53,7 @@
     </div>
   <section class="product-grid" >
     <div class="produs">
-      <a href="breloc-sharingan.html"><img src="./produse/breloc-sharingan-3-tomoe.jpg"></a>
+      <a href="product.html?id=breloc-sharingan"><img src="./produse/breloc-sharingan-3-tomoe.jpg"></a>
       <p><span class="product-name">Breloc din lemn colorat manual <br> sharingan - diverse modele</span><br><span class="product-size">Dimensiuni: 5x6 cm</span><br><span class="product-price">15 lei</span></p>
     </div>
     <div class="produs">
@@ -202,8 +206,12 @@
         &copy 2024 FRUMIX. Toate drepturile rezervate.
     </footer>
     </main>
-    <script src="script.js">
-        
-    </script>
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/banner-rotation.js"></script>
+    <script src="js/cart.js"></script>
   </body>
 </html>
