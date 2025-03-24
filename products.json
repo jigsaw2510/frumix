@@ -33,7 +33,7 @@
       "produse/glob-craciun-inima-fulg-nea.jpg",
       "produse/glob-craciun-pinguin-nume.jpg"
     ],
-    "shipping": "Livrare gratuita pentru comenzi peste 150 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
   {
     "id": "breloc-sharingan",
@@ -51,6 +51,42 @@
       "produse/breloc-sharingan-mangekyo-izuna-with-bg.jpg",
       "produse/breloc-sharingan-mangekyo-sasuke-with-bg.jpg",
       "produse/breloc-sharingan-4buc-rucsac-with-bg-2.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-dbz-piccolo",
+    "name": "Titirez lemn - Dragon Ball Z - Piccolo",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn – Piccolo Dragon Ball Z 🐉💥<br><br>Pentru fanii universului Dragon Ball Z, acest titirez Piccolo aduce magia și puterea unui războinic legendar direct în mâinile tale! Inspirat de renumitul personaj Piccolo, acest titirez surprinde trăsăturile iconice ale eroului, îmbinând designul clasic al titirezului cu simboluri ce evocă forța și înțelepciunea sa.<br><br>Realizat din lemn de calitate superioară și colorat manual cu vopsele non-toxice, acest titirez se rotește cu viteză și precizie, aducând o experiență de joc captivantă și intensă. Ideal pentru copii, colecționari și fanii Dragon Ball Z care vor să adauge un obiect de colecție unic în lumea lor!<br><br>💥 <b>Material</b>: Placaj de lemn durabil<br>👊 <b>Design</b>: Piccolo, pictat manual cu detalii caracteristice<br>🌀 <b>Rotație lină</b>: Proiectat pentru echilibru și viteză optimă<br>🎁 <b>Ideal pentru cadou</b>: Pentru iubitorii Dragon Ball Z de toate vârstele<br><br>Pregătește-te să aduci lupta la viață! Cine va reuși să țină titirezul în mișcare cel mai mult? 💥👊",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-dbz-piccolo-1.jpg",
+      "produse/titirez-dbz-piccolo-2.jpg",
+      "produse/titirez-dbz-piccolo-3.jpg",
+      "produse/titirez-dbz-piccolo-4.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-fotbal-minge-foc",
+    "name": "Titirez lemn - Fotbal - minge de foc",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn – Minge de foc 🏆🔥<br><br>Pentru pasionații de fotbal și adrenalină, acest titirez Minge de Foc aduce energia meciurilor intense direct în palma ta! Inspirat de viteza și dinamismul sportului rege, designul său îmbină simbolul clasic al mingii de fotbal cu flăcări spectaculoase, simbolizând puterea și pasiunea jocului.<br><br>Realizat din lemn de calitate superioară și colorat manual cu vopsele non-toxice, acest titirez nu doar arată impresionant, ci și se rotește lin și rapid, oferind o experiență captivantă fiecărui jucător. Perfect pentru copii, colecționari sau fanii fotbalului care vor să adauge un element unic în colecția lor!<br><br>⚽ <b>Material</b>: Placaj de lemn durabil<br>🔥 <b>Design</b>: Minge de fotbal în flăcări, pictată manual<br>🌀 <b>Rotație lină</b>: Proiectat pentru echilibru și viteză optimă<br>🎁 <b>Ideal pentru cadou</b>: Pentru iubitorii fotbalului de toate vârstele<br><br>Pregătește-te pentru un joc plin de energie! Cine poate ține titirezul în mișcare cel mai mult? 🔥⚽",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-fotbal-minge-foc-1.jpg",
+      "produse/titirez-fotbal-minge-foc-2.jpg",
+      "produse/titirez-fotbal-minge-foc-3.jpg",
+      "produse/titirez-fotbal-minge-foc-4.jpg",
+      "produse/titirez-fotbal-minge-foc-5.jpg",
+      "produse/titirez-fotbal-minge-foc-6.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   }

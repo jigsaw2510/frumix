@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("product-material").textContent = `Material: ${product.material}`;
             document.getElementById("product-dimensions").textContent = `Dimensiuni: ${product.dimensions}`;
             document.getElementById("product-thickness").textContent = `Grosime: ${product.thickness}`;
-            document.getElementById("product-description").textContent = product.description;
+            document.getElementById("product-description").innerHTML = product.description;
             document.getElementById("product-shipping").textContent = product.shipping;
 
             // Update images
