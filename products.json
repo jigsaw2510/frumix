@@ -1,46 +1,40 @@
 [
   {
-    "id": "breloc-animal",
-    "name": "Breloc personalizat cu animalutul tau",
+    "id": "breloc-catel",
+    "name": "Breloc personalizat – Prietenul tau loial 🐶❤️",
     "price": 15,
     "currency": "lei",
-    "description": "Imaginile sunt cu titlu de prezentare, brelocul va fi personalizat cu poza si numele animalutului dumneavoastra. Dupa plasarea comenzii va vom contacta pentru a stabili toate detaliile: imagini, text, mesaje etc. Toate comenzile beneficiaza de previzualizare digitala gratuita si vom intra in faza de productie DOAR cu acordul final al clientului, cu alte cuvinte veti putea vedea inainte cum va arata aproximativ produsul personalizat de dumneavoastra.",
+    "description": "Breloc personalizat – Prietenul tau loial 🐶❤️<br><br>Pastreaza mereu aproape imaginea catelului tau cu acest breloc personalizat din lemn! Gravura detaliata si finisajul atent lucrat transforma acest accesoriu intr-o amintire de nepretuit.<br><br>Poti adauga o poza si numele companionului tau, creand un breloc unic, perfect pentru tine sau ca un cadou special pentru un iubitor de animale. Realizat din lemn de calitate si finisat manual, fiecare breloc este personalizat cu grija pentru a reflecta personalitatea si farmecul catelului tau.<br><br>🐾 <b>Material</b>: Lemn natural gravat<br>📸 <b>Personalizare</b>: Poza si numele catelului<br>🎁 <b>Cadou special</b>: Perfect pentru orice iubitor de animale<br><br>Poarta cu tine imaginea prietenului tau loial, oriunde ai merge! 🐶❤️",
     "material": "Lemn",
     "dimensions": "4x5 cm",
     "thickness": "3-4mm",
     "images": [
-      "produse/breloc-pisica-1.jpg",
+      "produse/breloc-catel-3.jpg",
       "produse/breloc-catel-2.jpg",
-      "produse/breloc-catel-1.jpg",
-      "produse/breloc-catel-3.jpg"
+      "produse/breloc-catel-1.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
   {
-    "id": "cutie-gravata",
-    "name": "Cutie din lemn gravata",
-    "price": 30,
+    "id": "breloc-pisica",
+    "name": "Breloc personalizat cu poza si nume animal de companie – Pisica 🐱💖",
+    "price": 15,
     "currency": "lei",
-    "description": "Cutie eleganta din lemn cu gravura personalizata.",
+    "description": "Breloc personalizat cu poza si nume animal de companie – Pisica 🐱💖<br><br>Porta-ti iubirea pentru pisica ta oriunde mergi cu acest breloc personalizat! Realizat din materiale de calitate superioara, brelocul poate fi personalizat cu poza si numele pisicii tale, transformandu-l intr-un accesoriu unic si plin de emotie. Perfect pentru iubitorii de animale, acest breloc este un cadou minunat pentru orice posesor de pisica. Usor de atasat la chei, rucsac sau geanta, il poti purta mereu cu tine! <br><br>🐾 Material: Lemn/placaj durabil<br>📸 Personalizare: Poza si nume<br>🎁 Ideal pentru cadou: Pentru iubitorii de pisici<br><br>Un accesoriu adorabil care iti aduce mereu aminte de pisica ta draga!",
     "material": "Lemn",
-    "dimensions": "10x10x5 cm",
-    "thickness": "5mm",
+    "dimensions": "4x5 cm",
+    "thickness": "3-4mm",
     "images": [
-      "produse/glob-craciun-poza-text-fata.jpg",
-      "produse/glob-craciun-poza-text-spate-fundal.jpg",
-      "produse/glob-craciun-pinguin-nume.jpg",
-      "produse/glob-craciun-inima-nume.jpg",
-      "produse/glob-craciun-inima-fulg-nea.jpg",
-      "produse/glob-craciun-pinguin-nume.jpg"
+      "produse/breloc-pisica-1.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
   {
     "id": "breloc-sharingan",
-    "name": "Breloc din lemn colorat manual - sharingan - diverse modele",
+    "name": "Breloc din lemn – Sharingan 3 Tomoe 🔴🌀",
     "price": 15,
     "currency": "lei",
-    "description": "Breloc din lemn realizat prin gravura laser si colorat manual. Aceeasi imagine pe ambele parti. Se pot realiza si alte modele in functie de preferinte.",
+    "description": "Breloc din lemn – Sharingan 3 Tomoe 🔴🌀<br><br>Poarta puterea legendarului Sharingan cu tine in fiecare zi! Acest breloc unic, realizat din lemn si colorat manual, reproduce cu precizie ochiul iconic al clanului Uchiha in forma sa clasica cu 3 tomoe.<br><br>Perfect pentru fanii Naruto, acest breloc imbina designul autentic cu detalii atent lucrate, fiind un accesoriu ideal pentru chei, rucsac sau colectia ta de obiecte tematice. Vopseaua non-toxica asigura culori vibrante si un finisaj durabil, astfel incat simbolul Sharingan sa ramana la fel de impresionant in timp.<br><br>🔴 <b>Material</b>: Lemn de calitate superioara<br>🌀 <b>Design</b>: Sharingan 3 Tomoe, pictat manual<br>🎁 <b>Ideal pentru cadou</b>: Perfect pentru orice fan Naruto<br><br>Activeaza-ti chakra si poarta Sharinganul oriunde mergi! 🔥👁️",
     "material": "Lemn",
     "dimensions": "4x5 cm",
     "thickness": "3-4mm",
@@ -55,11 +49,53 @@
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
   {
+    "id": "ceas-masa-naruto",
+    "name": "Ceas de masă din lemn – Naruto Six Paths Sage Mode 🍃⚡",
+    "price": 100,
+    "currency": "lei",
+    "description": "Ceas de masă din lemn – Naruto Six Paths Sage Mode 🍃⚡<br><br>Adaugă o doză de putere supremă în decorul tău cu acest ceas de masă inspirat din <b>forma legendară Six Paths Sage Mode</b> a lui Naruto Uzumaki! Cu un design detaliat și gravat cu precizie, acest ceas surprinde aura mistică și simbolurile specifice acestei transformări epice.<br><br>Realizat din placaj de lemn durabil, cu un finisaj atent lucrat, acest ceas combină estetica tradițională a lemnului cu energia anime-ului Naruto. Fiecare detaliu, de la emblemele Six Paths până la ochii săi strălucitori, evocă forța incredibilă a protagonistului tău preferat.<br><br>🕰️ <b>Material</b>: Placaj de lemn de calitate superioară<br>🍃 <b>Design</b>: Naruto în modul Six Paths Sage, gravat cu detalii uimitoare<br>⚡ <b>Elemente iconice</b>: Simbolurile Rikudo Sennin, ochii Sage Mode, mantia chakrei<br>🔋 <b>Alimentare</b>: Funcționează cu baterie AA (neinclusă)<br>🎁 <b>Ideal pentru colecționari</b>: Cadoul perfect pentru orice fan adevărat al anime-ului Naruto!<br><br>Completează-ți colecția cu acest ceas spectaculos și lasă-te inspirat de puterea lui Naruto Uzumaki! 🍃🔥",
+    "material": "Lemn",
+    "dimensions": "15 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/ceas-masa-personalizat-15-cm.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "coaster-ardezie-inima",
+    "name": "Suport pahar personalizat din ardezie – Model inima ❤️💎",
+    "price": 15,
+    "currency": "lei",
+    "description": "Suport pahar personalizat din ardezie – Model inima ❤️💎<br><br>Adauga un strop de eleganta mesei tale cu acest suport pahar personalizat din ardezie, in forma de inima! Fabricat din ardezie de calitate superioara, acest accesoriu este perfect pentru orice ocazie, fiind un cadou minunat sau un element de decor rafinat pentru casa ta. Personalizeaza-l cu textul sau designul dorit pentru a-l face cu adevarat unic. Durabil si usor de intretinut, acest suport pahar adauga un plus de stil si functionalitate. <br><br>🌑 Material: Ardezie naturala<br>💬 Personalizare: Text sau design la alegere<br>🎁 Ideal pentru cadou: Pentru orice iubitor de design rafinat<br><br>Un suport pahar care imbina eleganta naturii cu un design personalizat, perfect pentru a infrumuseta orice masa!",
+    "material": "Ardezie",
+    "dimensions": "10 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/coaster-ardezie-10cm.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "fotogravura-forma-oglinda",
+    "name": "Fotogravura pe lemn - Oglinda personalizata 🪞🌿",
+    "price": 56,
+    "currency": "lei",
+    "description": "Fotogravura pe lemn – Oglinda personalizata 🪞🌿<br><br>Transforma-ti amintirile in opere de arta cu aceasta fotogravura pe lemn, in forma de oglinda! Un cadou perfect pentru orice ocazie, aceasta piesa unica combina eleganta lemnului cu detalii fine, gravate cu precizie, pentru a crea un efect vizual deosebit. Fiecare piesa este lucrata manual, garantand un produs personalizat si de calitate superioara. Personalizeaza oglinda cu fotografia ta preferata si adauga un strop de rafinament in decorul casei tale.<br><br>🌳 Material: Lemn natural gravat<br>📸 Personalizare: Fotografie si text<br>🎁 Ideal pentru cadou: Pentru orice eveniment special<br><br>Un accesoriu elegant si personalizat, perfect pentru a adauga o nota de originalitate oricarui spatiu!",
+    "material": "Lemn",
+    "dimensions": "20x28 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/fotogravura-oglinda-20x28.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
     "id": "titirez-dbz-piccolo",
-    "name": "Titirez lemn - Dragon Ball Z - Piccolo",
+    "name": "Titirez lemn - Dragon Ball Z - Piccolo 🐉💥",
     "price": 20,
     "currency": "lei",
-    "description": "Titirez din lemn – Piccolo Dragon Ball Z 🐉💥<br><br>Pentru fanii universului Dragon Ball Z, acest titirez Piccolo aduce magia și puterea unui războinic legendar direct în mâinile tale! Inspirat de renumitul personaj Piccolo, acest titirez surprinde trăsăturile iconice ale eroului, îmbinând designul clasic al titirezului cu simboluri ce evocă forța și înțelepciunea sa.<br><br>Realizat din lemn de calitate superioară și colorat manual cu vopsele non-toxice, acest titirez se rotește cu viteză și precizie, aducând o experiență de joc captivantă și intensă. Ideal pentru copii, colecționari și fanii Dragon Ball Z care vor să adauge un obiect de colecție unic în lumea lor!<br><br>💥 <b>Material</b>: Placaj de lemn durabil<br>👊 <b>Design</b>: Piccolo, pictat manual cu detalii caracteristice<br>🌀 <b>Rotație lină</b>: Proiectat pentru echilibru și viteză optimă<br>🎁 <b>Ideal pentru cadou</b>: Pentru iubitorii Dragon Ball Z de toate vârstele<br><br>Pregătește-te să aduci lupta la viață! Cine va reuși să țină titirezul în mișcare cel mai mult? 💥👊",
+    "description": "Titirez din lemn – Dragon Ball Z Piccolo 🐉💥<br><br>Pentru fanii universului Dragon Ball Z, acest titirez Piccolo aduce magia și puterea unui războinic legendar direct în mâinile tale! Inspirat de renumitul personaj Piccolo, acest titirez surprinde trăsăturile iconice ale eroului, îmbinând designul clasic al titirezului cu simboluri ce evocă forța și înțelepciunea sa.<br><br>Realizat din lemn de calitate superioară și colorat manual cu vopsele non-toxice, acest titirez se rotește cu viteză și precizie, aducând o experiență de joc captivantă și intensă. Ideal pentru copii, colecționari și fanii Dragon Ball Z care vor să adauge un obiect de colecție unic în lumea lor!<br><br>💥 <b>Material</b>: Placaj de lemn durabil<br>👊 <b>Design</b>: Piccolo, pictat manual cu detalii caracteristice<br>🌀 <b>Rotație lină</b>: Proiectat pentru echilibru și viteză optimă<br>🎁 <b>Ideal pentru cadou</b>: Pentru iubitorii Dragon Ball Z de toate vârstele<br><br>Pregătește-te să aduci lupta la viață! Cine va reuși să țină titirezul în mișcare cel mai mult? 💥👊",
     "material": "Lemn",
     "dimensions": "5x7 cm",
     "thickness": "3-4mm",
@@ -73,7 +109,7 @@
   },
   {
     "id": "titirez-fotbal-minge-foc",
-    "name": "Titirez lemn - Fotbal - minge de foc",
+    "name": "Titirez lemn - Fotbal - minge de foc 🏆🔥",
     "price": 20,
     "currency": "lei",
     "description": "Titirez din lemn – Minge de foc 🏆🔥<br><br>Pentru pasionații de fotbal și adrenalină, acest titirez Minge de Foc aduce energia meciurilor intense direct în palma ta! Inspirat de viteza și dinamismul sportului rege, designul său îmbină simbolul clasic al mingii de fotbal cu flăcări spectaculoase, simbolizând puterea și pasiunea jocului.<br><br>Realizat din lemn de calitate superioară și colorat manual cu vopsele non-toxice, acest titirez nu doar arată impresionant, ci și se rotește lin și rapid, oferind o experiență captivantă fiecărui jucător. Perfect pentru copii, colecționari sau fanii fotbalului care vor să adauge un element unic în colecția lor!<br><br>⚽ <b>Material</b>: Placaj de lemn durabil<br>🔥 <b>Design</b>: Minge de fotbal în flăcări, pictată manual<br>🌀 <b>Rotație lină</b>: Proiectat pentru echilibru și viteză optimă<br>🎁 <b>Ideal pentru cadou</b>: Pentru iubitorii fotbalului de toate vârstele<br><br>Pregătește-te pentru un joc plin de energie! Cine poate ține titirezul în mișcare cel mai mult? 🔥⚽",

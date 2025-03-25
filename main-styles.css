@@ -34,7 +34,6 @@ body {
     display: flex;               /* Flexbox ensures items align horizontally */
     align-items: center;         /* Vertically aligns logo and menu items */
     justify-content: space-between; /* Space items evenly if needed */
-    border: black solid 1px;
     padding: 10px 0;
 }
 
@@ -156,10 +155,6 @@ margin: 20px;
 }
 .hero {
   padding: 0;
-  border-left: solid black 1px;
-  border-right: solid black 1px;
-  border-bottom: solid black 1px;
-  border-top: solid black 1px;
 }
 .hero img {
   max-width: 100%;
@@ -170,8 +165,6 @@ margin: 20px;
 
 #action {
   font-size: 1.2em;
-  border-left: black solid 1px;
-  border-right: black solid 1px;
   padding: 0;
   margin: 0;
   height: 100px;
@@ -209,7 +202,6 @@ h1 {
   font-weight: 300;
   padding: 30px;
   text-align: center;
-  border: solid black 1px;
 }
 #recomandate {
   border-left: solid black 1px;
@@ -940,7 +932,8 @@ section p {
       margin: 0 auto;
   }
   .hero {
-      margin-top: 45px;
+      margin-top: 20px;
+      margin-bottom: 20px;
   }
   .column-4 {
   flex: 50%;
