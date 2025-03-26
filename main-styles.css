@@ -393,15 +393,15 @@ section p {
 
 /* Rotating images */
 
-.rotating-image {
+/*.rotating-image {
             width: 80%;
             height: auto;
             will-change: transform, opacity;
         }
 
         .rotating-image.animate {
-            opacity: 1; /* Fade in when visible */
-            animation: rotate 0.5s linear 1; /* Rotate for 3 seconds */
+            opacity: 1; 
+            animation: rotate 0.5s linear 1;
         }
 
         @keyframes rotate {
@@ -411,8 +411,8 @@ section p {
             to {
                 transform: rotate(360deg);
             }
-        }
-/*.rotating-image {
+        }*/
+.rotating-image {
             width: 80%;
             height: auto;
         }
@@ -428,7 +428,7 @@ section p {
             to {
                 transform: rotate(360deg);
             }
-        }*/
+        }
 
 /* Rotating images end */
 .product-name {

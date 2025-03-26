@@ -20,27 +20,27 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Rotating images
-document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll(".rotating-image");
+// document.addEventListener("DOMContentLoaded", () => {
+//     const images = document.querySelectorAll(".rotating-image");
 
-    if (!("IntersectionObserver" in window)) {
-        console.warn("IntersectionObserver not supported. Running fallback.");
-        images.forEach(img => img.classList.add("animate"));
-        return;
-    }
+//     if (!("IntersectionObserver" in window)) {
+//         console.warn("IntersectionObserver not supported. Running fallback.");
+//         images.forEach(img => img.classList.add("animate"));
+//         return;
+//     }
 
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-                img.classList.add("animate");
+//     const observer = new IntersectionObserver(entries => {
+//         entries.forEach(entry => {
+//             if (entry.isIntersecting) {
+//                 const img = entry.target;
+//                 img.classList.add("animate");
 
-                img.addEventListener('animationend', () => {
-                    img.classList.remove("animate");
-                }, { once: true });
-            }
-        });
-    }, { threshold: 0.3 });
+//                 img.addEventListener('animationend', () => {
+//                     img.classList.remove("animate");
+//                 }, { once: true });
+//             }
+//         });
+//     }, { threshold: 0.3 });
 
-    images.forEach(img => observer.observe(img));
-});
+//     images.forEach(img => observer.observe(img));
+// });
