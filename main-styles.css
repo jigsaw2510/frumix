@@ -396,7 +396,7 @@ section p {
 .rotating-image {
             width: 80%;
             height: auto;
-            transition: opacity 0.5s ease-in-out;
+            will-change: transform, opacity;
         }
 
         .rotating-image.animate {

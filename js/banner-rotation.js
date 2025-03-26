@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }, { once: true });
             }
         });
-    }, { threshold: 0.5 });
+    }, { threshold: 0.3 });
 
     images.forEach(img => observer.observe(img));
 });
