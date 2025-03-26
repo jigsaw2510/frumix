@@ -18,3 +18,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 3000);
   }
 });
+
+// Rotating images
+document.addEventListener("DOMContentLoaded", () => {
+        const images = document.querySelectorAll(".rotating-image");
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target; // Get the specific image that entered the viewport
+                    img.classList.add("animate");
+
+                    // Remove the class after animation ends to allow repeat animation
+                    img.addEventListener('animationend', () => {
+                        img.classList.remove("animate");
+                    }, { once: true }); // Ensures the event fires only once per animation
+                }
+            });
+        }, { threshold: 0.5 }); // Trigger when 50% of the image is visible
+
+        images.forEach(img => observer.observe(img)); // Observe each image individually
+    });

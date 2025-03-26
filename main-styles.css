@@ -388,7 +388,49 @@ section p {
     height: auto; /* Maintain aspect ratio */
     display: block; /* Prevent inline space below the image */
     margin: 0 auto; /* Center the image horizontally if needed */
+    margin-top: 20px;
 }
+
+/* Rotating images */
+
+.rotating-image {
+            width: 80%;
+            height: auto;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .rotating-image.animate {
+            opacity: 1; /* Fade in when visible */
+            animation: rotate 0.5s linear 1; /* Rotate for 3 seconds */
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+/*.rotating-image {
+            width: 80%;
+            height: auto;
+        }
+
+        .rotating-image:hover {
+            animation: rotate 0.3s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }*/
+
+/* Rotating images end */
 .product-name {
   font-weight: 500;
 }

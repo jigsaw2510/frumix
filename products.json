@@ -77,6 +77,20 @@
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
   {
+    "id": "fotogravura-forma-inima",
+    "name": "Fotogravura pe lemn – Model inima ❤️✨",
+    "price": 40,
+    "currency": "lei",
+    "description": "Fotogravura pe lemn – Model inima ❤️✨<br><br>Pastreaza cele mai frumoase amintiri intr-un mod unic cu aceasta fotogravura pe lemn in forma de inima! Realizata cu precizie prin gravura laser, imaginea ta prinde viata pe lemn natural, oferind un aspect elegant si autentic. Perfecta pentru cadouri speciale sau decor sentimental, aceasta piesa va ramane o amintire de neuitat. <br><br>🌳 Material: Lemn natural<br>🖼️ Personalizare: Fotogravura detaliata<br>🎁 Ideal pentru cadou: Momente speciale si aniversari<br><br>Transforma o fotografie draga intr-o opera de arta pe lemn, plina de emotie si caldura!",
+    "material": "Lemn",
+    "dimensions": "20 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/fotogravura-inima-20-cm.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
     "id": "fotogravura-forma-oglinda",
     "name": "Fotogravura pe lemn - Oglinda personalizata 🪞🌿",
     "price": 56,
@@ -87,6 +101,62 @@
     "thickness": "3-4mm",
     "images": [
       "produse/fotogravura-oglinda-20x28.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "fotogravura-forma-pergament",
+    "name": "Fotogravura pe lemn – Model pergament 📜✨",
+    "price": 56,
+    "currency": "lei",
+    "description": "Fotogravura pe lemn – Model pergament 📜✨<br><br>O amintire gravata pentru eternitate! Aceasta fotogravura pe lemn in forma de pergament ofera un design elegant si clasic, perfect pentru a pastra cele mai dragi imagini si mesaje. Realizata cu gravura laser de inalta precizie, fiecare detaliu al fotografiei este redat cu claritate, oferind un efect vizual deosebit. Ideala pentru cadouri personalizate sau decor sentimental, aceasta piesa transforma orice fotografie intr-o adevarata opera de arta. <br><br>🌳 Material: Lemn natural<br>🖼️ Personalizare: Fotogravura detaliata<br>🎁 Ideal pentru cadou: Evenimente speciale si aniversari<br><br>Pastreaza amintirile vii cu un design ce inspira rafinament si traditie!",
+    "material": "Lemn",
+    "dimensions": "20x28 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/fotogravura-pergament-20x28.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "fotogravura-forma-tablou-flori",
+    "name": "Fotogravura stil tablou cu rama decorata cu flori 🌸✨",
+    "price": 56,
+    "currency": "lei",
+    "description": "Fotogravura stil tablou cu rama decorata cu flori 🌸✨<br><br>Pastreaza cele mai frumoase amintiri intr-un tablou delicat si elegant! Aceasta fotogravura realizata prin gravura laser reda cu precizie detaliile fotografiei tale pe lemn, fiind incadrata de o rama decorata cu motive florale, care adauga un farmec aparte si o nota romantica. Perfecta pentru cadouri speciale sau pentru a aduce un plus de caldura oricarui decor. <br><br>🌿 Material: Lemn natural + rama cu flori gravata<br>🎨 Personalizare: Gravura laser detaliata<br>🎁 Ideal pentru cadouri: Aniversari, nunta, familie, prieteni<br><br>Un tablou unic, plin de rafinament si emotie!",
+    "material": "Lemn",
+    "dimensions": "20x28 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/fotogravura-tablou-rama-flori-20x28.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "fotogravura-forma-tablou-naruto",
+    "name": "Fotogravura stil tablou cu rama simbol Naruto 🍃🔥",
+    "price": 56,
+    "currency": "lei",
+    "description": "Fotogravura stil tablou cu rama simbol Naruto 🍃🔥<br><br>Adauga un plus de energie ninja amintirilor tale! Aceasta fotogravura stil tablou este perfect integrata intr-o rama personalizata cu simboluri inspirate din universul Naruto, oferind un design unic si plin de caracter. Gravura laser de inalta precizie transforma fotografia ta intr-o opera de arta pe lemn, iar rama tematica completeaza perfect atmosfera. <br><br>🌀 Material: Lemn natural + rama personalizata Naruto<br>⚡ Personalizare: Gravura laser cu detalii fine<br>🎁 Ideal pentru fanii anime: Cadou special sau decor epic<br><br>Pastreaza-ti amintirile cu stil si puterea unui adevarat ninja!",
+    "material": "Lemn",
+    "dimensions": "20x28 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/fotogravura-tablou-20x28.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "fotogravura-sticker-magnet",
+    "name": "Fotogravura stil sticker cu magnet 🧲✨",
+    "price": 15,
+    "currency": "lei",
+    "description": "Fotogravura stil sticker cu magnet 🧲✨<br><br>Transforma-ti amintirile in decor unic! Aceasta fotogravura stil sticker cu magnet aduce un plus de personalitate frigiderului tau sau oricarei suprafete metalice. Inspirata de sticker-ele digitale, aceasta gravura conturata urmareste perfect forma imaginii tale, oferind un efect modern si creativ. <br><br>🔲 Material: Lemn natural + magnet<br>🖼️ Personalizare: Gravura laser cu forma decupata<br>🎁 Ideal pentru cadou: Momente speciale si decor original<br><br>Adauga un touch personal in casa ta cu un magnet unic, creat special pentru tine!",
+    "material": "Lemn",
+    "dimensions": "10 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/sticker-magnet-10-cm.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
@@ -123,6 +193,40 @@
       "produse/titirez-fotbal-minge-foc-4.jpg",
       "produse/titirez-fotbal-minge-foc-5.jpg",
       "produse/titirez-fotbal-minge-foc-6.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-printesa",
+    "name": "Titirez din lemn - Printesa 👑✨",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Printesa 👑✨<br><br>Un titirez fermecator inspirat de basme si magie! Acest model delicat, colorat manual, aduce un strop de eleganta si stralucire in fiecare rotatie. Cu un design inspirat de printese si povesti de vis, acest titirez este perfect pentru micile iubitoare de fantezie si magie.<br><br>🌟 Material: Lemn durabil, pictat manual<br>👸 Design: Inspirat de printese, cu detalii fine si culori vibrante<br>🌀 Rotație lina: Proiectat pentru echilibru si miscare fluida<br>🎁 Ideal pentru cadou: Perfect pentru copii sau colectionari<br><br>Adauga un strop de magie si lasa-l sa se invarta in lumea povestilor! ✨👑",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-printesa-1.jpg",
+      "produse/titirez-printesa-2.jpg",
+      "produse/titirez-printesa-3.jpg",
+      "produse/titirez-printesa-4.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-squid-game-soldier-circle",
+    "name": "Titirez din lemn - Squid Game - Soldat ⭕",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Soldat ⭕<br><br>Inspirat de misterul si tensiunea din Squid Game, acest titirez aduce in joc simbolul emblematic al gardienilor din faimosul serial. Colorat manual in nuante vibrante de rosu si negru, cu detalii precise, acest model este perfect pentru fanii care vor sa adauge un obiect de colectie unic in universul lor.<br><br>🎭 Material: Lemn rezistent, pictat manual<br>🟥 Design: Gardian O din Squid Game, cu detalii autentice<br>🌀 Rotație lina: Echilibru perfect pentru o miscare fluida<br>🎁 Ideal pentru cadou: Fanii serialului vor aprecia acest detaliu special<br><br>Pune-l in miscare si intra in atmosfera tensionata a jocului! ⭕",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-squid-game-soldier-circle-1.jpg",
+      "produse/titirez-squid-game-soldier-circle-2.jpg",
+      "produse/titirez-squid-game-soldier-circle-3.jpg",
+      "produse/titirez-squid-game-soldier-circle-4.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   }

@@ -39,6 +39,16 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("product-description").innerHTML = product.description;
             document.getElementById("product-shipping").textContent = product.shipping;
 
+            // Update breadcrumb dynamically
+            const breadcrumb = document.querySelector(".breadcrumb");
+            if (breadcrumb) {
+                breadcrumb.innerHTML = `
+                    <a href="index.html">Home</a> &gt;
+                    <a href="produse.html">Produse</a> &gt;
+                    <span>${product.name}</span>
+                `;
+            }
+
             // Update images
             const mainImage = document.getElementById("main-image");
             mainImage.src = product.images[0];
@@ -122,3 +132,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     updateCartCount(); // Refresh count on page load
 });
+
