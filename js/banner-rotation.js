@@ -21,21 +21,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Rotating images
 document.addEventListener("DOMContentLoaded", () => {
-        const images = document.querySelectorAll(".rotating-image");
+    const images = document.querySelectorAll(".rotating-image");
 
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target; // Get the specific image that entered the viewport
-                    img.classList.add("animate");
+    if (!("IntersectionObserver" in window)) {
+        console.warn("IntersectionObserver not supported. Running fallback.");
+        images.forEach(img => img.classList.add("animate"));
+        return;
+    }
 
-                    // Remove the class after animation ends to allow repeat animation
-                    img.addEventListener('animationend', () => {
-                        img.classList.remove("animate");
-                    }, { once: true }); // Ensures the event fires only once per animation
-                }
-            });
-        }, { threshold: 0.5 }); // Trigger when 50% of the image is visible
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.classList.add("animate");
 
-        images.forEach(img => observer.observe(img)); // Observe each image individually
-    });
+                img.addEventListener('animationend', () => {
+                    img.classList.remove("animate");
+                }, { once: true });
+            }
+        });
+    }, { threshold: 0.5 });
+
+    images.forEach(img => observer.observe(img));
+});
