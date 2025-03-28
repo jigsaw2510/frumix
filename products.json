@@ -162,7 +162,7 @@
   },
   {
     "id": "titirez-dbz-piccolo",
-    "name": "Titirez lemn - Dragon Ball Z - Piccolo 🐉💥",
+    "name": "Titirez din lemn - Dragon Ball Z - Piccolo 🐉💥",
     "price": 20,
     "currency": "lei",
     "description": "Titirez din lemn – Dragon Ball Z Piccolo 🐉💥<br><br>Pentru fanii universului Dragon Ball Z, acest titirez Piccolo aduce magia și puterea unui războinic legendar direct în mâinile tale! Inspirat de renumitul personaj Piccolo, acest titirez surprinde trăsăturile iconice ale eroului, îmbinând designul clasic al titirezului cu simboluri ce evocă forța și înțelepciunea sa.<br><br>Realizat din lemn de calitate superioară și colorat manual cu vopsele non-toxice, acest titirez se rotește cu viteză și precizie, aducând o experiență de joc captivantă și intensă. Ideal pentru copii, colecționari și fanii Dragon Ball Z care vor să adauge un obiect de colecție unic în lumea lor!<br><br>💥 <b>Material</b>: Placaj de lemn durabil<br>👊 <b>Design</b>: Piccolo, pictat manual cu detalii caracteristice<br>🌀 <b>Rotație lină</b>: Proiectat pentru echilibru și viteză optimă<br>🎁 <b>Ideal pentru cadou</b>: Pentru iubitorii Dragon Ball Z de toate vârstele<br><br>Pregătește-te să aduci lupta la viață! Cine va reuși să țină titirezul în mișcare cel mai mult? 💥👊",
@@ -170,6 +170,7 @@
     "dimensions": "5x7 cm",
     "thickness": "3-4mm",
     "images": [
+      "produse/titirez-dbz-piccolo-rotation.jpg",
       "produse/titirez-dbz-piccolo-1.jpg",
       "produse/titirez-dbz-piccolo-2.jpg",
       "produse/titirez-dbz-piccolo-3.jpg",
@@ -187,12 +188,31 @@
     "dimensions": "5x7 cm",
     "thickness": "3-4mm",
     "images": [
+      "produse/titirez-fotbal-minge-foc-rotation.jpg",
       "produse/titirez-fotbal-minge-foc-1.jpg",
       "produse/titirez-fotbal-minge-foc-2.jpg",
       "produse/titirez-fotbal-minge-foc-3.jpg",
       "produse/titirez-fotbal-minge-foc-4.jpg",
       "produse/titirez-fotbal-minge-foc-5.jpg",
       "produse/titirez-fotbal-minge-foc-6.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-pokemon-bulbasaur",
+    "name": "Titirez din lemn - Bulbasaur 🍃💚",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Bulbasaur 🍃💚<br><br>Inspirat de indragitul Bulbasaur, acest titirez aduce un strop de natura si aventura in fiecare rotatie! Designul sau vibrant, colorat manual, reflecta perfect spiritul prietenos si energic al acestui Pokemon clasic.<br><br>🌿 Material: Lemn rezistent, pictat manual<br>🍃 Design: Inspirat de Bulbasaur, cu detalii atent lucrate<br>🌀 Rotație lina: Proiectat pentru echilibru si miscare fluida<br>🎁 Ideal pentru cadou: Perfect pentru fanii Pokemon de toate varstele<br><br>Pregateste-te de batalie si lasa-l sa se invarta in lumea Pokemon! 💚🔥",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-pokemon-bulbasaur-rotation.jpg",
+      "produse/titirez-pokemon-bulbasaur-1.jpg",
+      "produse/titirez-pokemon-bulbasaur-2.jpg",
+      "produse/titirez-pokemon-bulbasaur-3.jpg",
+      "produse/titirez-pokemon-bulbasaur-4.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
@@ -210,6 +230,58 @@
       "produse/titirez-printesa-2.jpg",
       "produse/titirez-printesa-3.jpg",
       "produse/titirez-printesa-4.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-romania-drapel",
+    "name": "Titirez din lemn - Romania - culorile drapelului 🇷🇴🌀",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Romania - culorile drapelului 🇷🇴🌀<br><br>Un simbol al mandriei nationale, acest titirez este inspirat de culorile vibrante ale drapelului Romaniei! Realizat din lemn de calitate si pictat manual in albastru, galben si rosu, acest titirez este perfect pentru orice roman care isi poarta tara in suflet.<br><br>🌳 Material: Lemn rezistent, pictat manual<br>🇷🇴 Design: Inspirat de culorile steagului national<br>🌀 Rotație lina: Echilibru perfect pentru o miscare fluida<br>🎁 Ideal pentru cadou: Pentru romani de pretutindeni<br><br>Fa-l sa se invarta si lasa culorile Romaniei sa prinda viata! 🇷🇴✨",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-romania-culorile-steagului-rotation.jpg",
+      "produse/titirez-romania-culorile-steagului-1.jpg",
+      "produse/titirez-romania-culorile-steagului-2.jpg",
+      "produse/titirez-romania-culorile-steagului-3.jpg",
+      "produse/titirez-romania-culorile-steagului-4.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-sharingan-3-tomoe",
+    "name": "Titirez din lemn - Sharingan 3 Tomoe 🔴🌀",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Sharingan 3 Tomoe 🔴🌀<br><br>Activeaza puterea Sharingan-ului cu acest titirez unic inspirat de faimosul dojutsu! Designul sau impresionant, colorat manual in nuante vibrante de rosu si negru, surprinde esenta ochiului legendar din universul Naruto.<br><br>👁️ Material: Lemn rezistent, pictat manual<br>🔴 Design: Sharingan 3 Tomoe, cu detalii autentice<br>🌀 Rotație lina: Echilibru perfect pentru o miscare fluida<br>🎁 Ideal pentru cadou: Un must-have pentru fanii Naruto<br><br>Concentreaza-ti chakra si pune-l in miscare! 🔴🔥",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-sharingan-3-tomoe-rotation.jpg",
+      "produse/titirez-sharingan-3-tomoe-1.jpg",
+      "produse/titirez-sharingan-3-tomoe-2.jpg",
+      "produse/titirez-sharingan-3-tomoe-3.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-sharingan-madara-mangekyo",
+    "name": "Titirez din lemn - Madara Mangekyo Sharingan 🔥🔴",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Madara Mangekyo Sharingan 🔥🔴<br><br>Descopera forta legendara a lui Madara Uchiha cu acest titirez inspirat de temutul Mangekyo Sharingan! Designul sau detaliat si colorat manual reda perfect simbolul puterii supreme din universul Naruto, fiind un obiect de colectie impresionant.<br><br>👁️ Material: Lemn durabil, pictat manual<br>🔴 Design: Madara Mangekyo Sharingan, cu detalii precise<br>🌀 Rotație lina: Proiectat pentru stabilitate si miscare perfecta<br>🎁 Ideal pentru cadou: Un accesoriu must-have pentru fanii Naruto<br><br>Activeaza Mangekyo Sharingan si pune-l in miscare! 🔥👁️",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-sharingan-madara-mangekyo-rotation.jpg",
+      "produse/titirez-sharingan-madara-mangekyo-1.jpg",
+      "produse/titirez-sharingan-madara-mangekyo-2.jpg",
+      "produse/titirez-sharingan-madara-mangekyo-3.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
