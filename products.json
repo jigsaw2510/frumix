@@ -199,6 +199,24 @@
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
   {
+    "id": "titirez-natura-frunze-stea",
+    "name": "Titirez din lemn - Natura - Frunze in forma de stea 🍃⭐",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Natura - Frunze in forma de stea 🍃⭐<br><br>Inspirat de frumusetea naturii, acest titirez aduce farmecul frunzelor in forma de stea direct in palma ta! Designul sau elegant si detaliile pictate manual creeaza un efect vizual captivant atunci cand se invarte.<br><br>🌳 Material: Lemn de calitate, pictat manual<br>🍃 Design: Frunze in forma de stea, cu detalii fine<br>🌀 Rotație lina: Echilibrat pentru o miscare fluida<br>🎁 Ideal pentru cadou: Pentru iubitorii naturii si colectii unice<br><br>Redescopera magia naturii intr-un titirez fascinant! 🍃⭐",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-natura-frunze-forma-stea-rotation.jpg",
+      "produse/titirez-natura-frunze-forma-stea-1.jpg",
+      "produse/titirez-natura-frunze-forma-stea-2.jpg",
+      "produse/titirez-natura-frunze-forma-stea-3.jpg",
+      "produse/titirez-natura-frunze-forma-stea-4.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
     "id": "titirez-pokemon-bulbasaur",
     "name": "Titirez din lemn - Bulbasaur 🍃💚",
     "price": 20,
