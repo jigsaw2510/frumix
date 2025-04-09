@@ -199,6 +199,20 @@
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
   {
+    "id": "titirez-natura-copac-pe-marginea-lacului-v1",
+    "name": "Titirez din lemn - Copac pe marginea lacului 🌳🌊",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Copac pe marginea lacului 🌳🌊<br><br>Inspirat de frumusetea si linistea naturii, acest titirez reda o scena calma cu un copac solitar langa un lac senin. Jocul de culori si detaliile pictate manual aduc un strop de relaxare si magie in fiecare rotatie.<br><br>🌿 Material: Lemn natural, pictat cu grija<br>🌅 Design: Peisaj cu copac si lac<br>🌀 Rotatie lina: Echilibru perfect pentru o miscare armonioasa<br>🎁 Ideal pentru cadou: Pentru iubitorii de natura si momente de calm<br><br>Intoarce-l si lasa-l sa spuna povestea unei zile linistite pe malul lacului. 🌳🌊",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-natura-copac-pe-marginea-lacului-v1-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
     "id": "titirez-natura-frunze-stea",
     "name": "Titirez din lemn - Natura - Frunze in forma de stea 🍃⭐",
     "price": 20,
@@ -213,6 +227,20 @@
       "produse/titirez-natura-frunze-forma-stea-2.jpg",
       "produse/titirez-natura-frunze-forma-stea-3.jpg",
       "produse/titirez-natura-frunze-forma-stea-4.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+  },
+  {
+    "id": "titirez-natura-luna-cu-cerul-noptii",
+    "name": "Titirez din lemn - Luna si cerul noptii 🌙",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Luna si cerul noptii 🌙<br><br>Un titirez magic inspirat de linistea noptii si misterul cerului senin. Designul pictat manual reda o luna delicata intr-un decor nocturn, oferind un joc vizual relaxant in timpul rotirii.<br><br>🌳 Material: Lemn atent finisat, pictat manual<br>🌙 Design: Luna si cerul noptii<br>🌀 Rotatie lina: Proiectat pentru o miscare fluida si echilibrata<br>🎁 Ideal pentru cadou: Pentru visatori, iubitori de cer si natura<br><br>Lasa-l sa se invarte si patrunde intr-o lume de liniste si magie nocturna! 🌙",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-natura-luna-cu-cerul-noptii-rotation.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
   },
