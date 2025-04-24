@@ -13,7 +13,9 @@
       "produse/breloc-catel-2.jpg",
       "produse/breloc-catel-1.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "breloc-pisica",
@@ -27,7 +29,9 @@
     "images": [
       "produse/breloc-pisica-1.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "breloc-sharingan",
@@ -46,7 +50,9 @@
       "produse/breloc-sharingan-mangekyo-sasuke-with-bg.jpg",
       "produse/breloc-sharingan-4buc-rucsac-with-bg-2.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "ceas-masa-naruto",
@@ -60,7 +66,9 @@
     "images": [
       "produse/ceas-masa-personalizat-15-cm.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "coaster-ardezie-inima",
@@ -74,7 +82,9 @@
     "images": [
       "produse/coaster-ardezie-10cm.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "fotogravura-forma-inima",
@@ -88,7 +98,9 @@
     "images": [
       "produse/fotogravura-inima-20-cm.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "fotogravura-forma-oglinda",
@@ -102,7 +114,9 @@
     "images": [
       "produse/fotogravura-oglinda-20x28.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "fotogravura-forma-pergament",
@@ -116,7 +130,9 @@
     "images": [
       "produse/fotogravura-pergament-20x28.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "fotogravura-forma-tablou-flori",
@@ -130,7 +146,9 @@
     "images": [
       "produse/fotogravura-tablou-rama-flori-20x28.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "fotogravura-forma-tablou-naruto",
@@ -144,7 +162,9 @@
     "images": [
       "produse/fotogravura-tablou-20x28.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
   },
   {
     "id": "fotogravura-sticker-magnet",
@@ -158,7 +178,73 @@
     "images": [
       "produse/sticker-magnet-10-cm.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Produse",
+    "categoryUrl": "produse.html"
+  },
+  {
+    "id": "titirez-abstract-iluzie-optica-tunel",
+    "name": "Titirez din lemn – Iluzie optica tunel 🔄",
+    "price": 20,
+    "currency": "lei",
+    "description": "Acest titirez cu design abstract si iluzie optica tunel transforma miscarea simpla intr-un joc fascinant al perspectivei. Modelul spiralat creeaza un efect hipnotizant care capteaza privirea si stimuleaza imaginatia.<br><br>🔄 Design: iluzie optica tunel<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>Un titirez unic ce aduce un aer modern si artistic oricarui moment de relaxare!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-abstract-iluzie-optica-tunel-v1-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-abstract-iluzie-optica-vortex",
+    "name": "Titirez din lemn – Iluzie optica vortex 🌀",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirezul cu iluzie optica vortex ofera o experienta vizuala dinamica si hipnotizanta, ce transforma rotirea intr-un joc fascinant de lumini si umbre.<br><br>🌀 Design: iluzie optica vortex<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>Un titirez creativ si modern pentru momente de relaxare unice!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-iluzie-optica-vortex-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-abstract-spirala",
+    "name": "Titirez din lemn – Spirala abstracta 🌀",
+    "price": 20,
+    "currency": "lei",
+    "description": "Acest titirez cu design abstract in forma de spirala este o reinterpretare moderna a unei jucarii clasice. Liniile fluide si efectul hipnotizant creat in timpul rotirii aduc un plus de eleganta si dinamism fiecarui moment de joaca. Ideal pentru cei care iubesc obiectele decorative neobisnuite si jucariile cu personalitate.<br><br>🌀 Design: spirala abstracta cu efect vizual dinamic<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>Un titirez aparte care atrage toate privirile!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-abstract-iluzie-optica-spirala-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-anime-kunai-wheel",
+    "name": "Titirez din lemn – Kunai Wheel 🌀",
+    "price": 20,
+    "currency": "lei",
+    "description": "Inspirat din universul anime, acest titirez in forma de roata kunai aduce o doza de energie si dinamism jocului clasic. Designul sau simbolic imita rotatia rapida a kunai-urilor dispuse circular, oferind un efect vizual puternic si tematic.<br><br>🌀 Design: roata formata din kunai stilizate<br>🎨 Decorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru fani anime si cadouri personalizate<br><br>Un titirez care imbina traditia cu adrenalina universului ninja!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-anime-shuriken-wheel-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-dbz-piccolo",
@@ -176,7 +262,9 @@
       "produse/titirez-dbz-piccolo-3.jpg",
       "produse/titirez-dbz-piccolo-4.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-fotbal-minge-foc",
@@ -196,7 +284,25 @@
       "produse/titirez-fotbal-minge-foc-5.jpg",
       "produse/titirez-fotbal-minge-foc-6.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-insecte-fluture-multicolor",
+    "name": "Titirez din lemn – Fluture multicolor 🦋",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un titirez colorat si delicat, inspirat de eleganta si libertatea fluturilor. Designul vibrant prinde viata in timpul rotirii, oferind o explozie de culoare si bucurie.<br><br>🦋 Design: fluture multicolor<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>O alegere vesela si plina de farmec pentru orice varsta!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-insecte-fluture-multicolor-v2-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-natura-copac-pe-marginea-lacului-v1",
@@ -210,7 +316,25 @@
     "images": [
       "produse/titirez-natura-copac-pe-marginea-lacului-v1-rotation.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-natura-floare",
+    "name": "Titirez din lemn – Floare 🌸",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un model delicat si plin de viata inspirat din frumusetea naturii. Acest titirez cu floare stilizata aduce un aer proaspat si vesel in fiecare rotatie. Ideal pentru cei care iubesc natura si doresc o jucarie cu un design cald si prietenos.<br><br>🌸 Design: floare stilizata cu petale echilibrate<br>🎨 Colorat manual in nuante pastel<br>🪵 Material: placaj din lemn finisat<br>🎁 Potrivit pentru cadouri si colectii creative<br><br>Un titirez care infloreste odata cu fiecare miscare!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-natura-floare-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-natura-frunze-stea",
@@ -228,7 +352,9 @@
       "produse/titirez-natura-frunze-forma-stea-3.jpg",
       "produse/titirez-natura-frunze-forma-stea-4.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-natura-luna-cu-cerul-noptii",
@@ -242,7 +368,9 @@
     "images": [
       "produse/titirez-natura-luna-cu-cerul-noptii-rotation.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-pokemon-bulbasaur",
@@ -260,7 +388,9 @@
       "produse/titirez-pokemon-bulbasaur-3.jpg",
       "produse/titirez-pokemon-bulbasaur-4.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-printesa",
@@ -277,7 +407,9 @@
       "produse/titirez-printesa-3.jpg",
       "produse/titirez-printesa-4.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-romania-drapel",
@@ -295,7 +427,9 @@
       "produse/titirez-romania-culorile-steagului-3.jpg",
       "produse/titirez-romania-culorile-steagului-4.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-sharingan-3-tomoe",
@@ -312,7 +446,9 @@
       "produse/titirez-sharingan-3-tomoe-2.jpg",
       "produse/titirez-sharingan-3-tomoe-3.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-sharingan-madara-mangekyo",
@@ -329,7 +465,9 @@
       "produse/titirez-sharingan-madara-mangekyo-2.jpg",
       "produse/titirez-sharingan-madara-mangekyo-3.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   },
   {
     "id": "titirez-squid-game-soldier-circle",
@@ -346,6 +484,72 @@
       "produse/titirez-squid-game-soldier-circle-3.jpg",
       "produse/titirez-squid-game-soldier-circle-4.jpg"
     ],
-    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei."
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-tvshow-squidgame-dalgona",
+    "name": "Titirez din lemn – Squid Game – Simboluri Dalgona 🍬",
+    "price": 20,
+    "currency": "lei",
+    "description": "Inspirat de faimoasa provocare din serialul Squid Game, acest titirez cu simboluri Dalgona – cerc, triunghi, patrat – este un omagiu creativ adus fenomenului global. Designul iconic si stilizarea grafica precisa transforma joaca intr-o experienta vizuala unica.<br><br>🍬 Design: simboluri Dalgona stilizate (◯ △ ⬛)<br>🎨 Pictat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru fanii serialului si cadouri tematice<br><br>Un titirez cu suspans, inspiratie si stil urban!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-tv-show-squid-game-dalgona-v2-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-tvshow-squidgame-puppet",
+    "name": "Titirez din lemn – Squid Game – Papusa 🎭",
+    "price": 20,
+    "currency": "lei",
+    "description": "Inspirat de faimoasa papusa din Squid Game, acest titirez surprinde detaliile iconice ale personajului, aducand un plus de mister si nostalgie jocului tau preferat. Designul expresiv si finisajele atent lucrate il fac un cadou perfect pentru fanii serialului.<br><br>🎭 Design: papusa Squid Game detaliata si expresiva<br>🎨 Pictat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru colectii si cadouri tematice<br><br>Un titirez care imbina suspansul cu arta lemnului!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-tv-show-squid-game-puppet-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-tvshow-squidgame-square-soldier",
+    "name": "Titirez din lemn – Squid Game – Soldat 🟧",
+    "price": 20,
+    "currency": "lei",
+    "description": "Inspirat de soldatul cu masca patrat din Squid Game, acest titirez este o piesa unica ce surprinde simplitatea si misterul personajului. Designul minimalist si culorile vii il transforma intr-un obiect de colectie perfect pentru fanii serialului.<br><br>🟧 Design: masca patrat iconic Squid Game<br>🎨 Pictat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru colectii si cadouri tematice<br><br>Un titirez ce aduce spiritul Squid Game in palma ta!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-tv-show-squid-game-square-soldier-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-tvshow-squidgame-triangle-soldier",
+    "name": "Titirez din lemn – Squid Game – Soldat 🔺",
+    "price": 20,
+    "currency": "lei",
+    "description": "Inspirat de soldatul cu masca triunghi din Squid Game, acest titirez combina designul simplu cu o simbolistica puternica. Culorile vibrante si detaliile precise il fac ideal pentru fanii serialului si colectionari.<br><br>🔺 Design: masca triunghi iconic Squid Game<br>🎨 Pictat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru colectii si cadouri tematice<br><br>Un titirez care aduce misterul si tensiunea Squid Game aproape de tine!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-tv-show-squid-game-triangle-soldier-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
   }
 ]

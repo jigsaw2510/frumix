@@ -41,13 +41,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Update breadcrumb dynamically
             const breadcrumb = document.querySelector(".breadcrumb");
-            if (breadcrumb) {
+            if (breadcrumb && product) {
+                const categoryName = product.category || "Produse";
+                const categoryUrl = product.categoryUrl || "produse.html";
+
                 breadcrumb.innerHTML = `
                     <a href="index.html">Home</a> &gt;
-                    <a href="produse.html">Produse</a> &gt;
+                    <a href="${categoryUrl}">${categoryName}</a> &gt;
                     <span>${product.name}</span>
                 `;
             }
+
 
             // Update images
             const mainImage = document.getElementById("main-image");
