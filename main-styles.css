@@ -369,7 +369,7 @@ section p {
 /* Products section styling */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible columns */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Flexible columns */
     gap: 20px; /* Space between items */
     padding: 20px; /* Padding around the grid */
 }
@@ -378,7 +378,7 @@ section p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 400px; /* Ensures consistent height */
+    min-height: 200px; /* Ensures consistent height */
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
     overflow: hidden;
