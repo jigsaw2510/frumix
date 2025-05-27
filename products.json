@@ -183,8 +183,8 @@
     "categoryUrl": "produse.html"
   },
   {
-    "id": "titirez-abstract-iluzie-optica-tunel",
-    "name": "Titirez din lemn – Iluzie optica tunel 🔄",
+    "id": "titirez-abstract-iluzie-optica-tunel-v1",
+    "name": "Titirez din lemn – Iluzie optica tunel v1 🔄",
     "price": 20,
     "currency": "lei",
     "description": "Acest titirez cu design abstract si iluzie optica tunel transforma miscarea simpla intr-un joc fascinant al perspectivei. Modelul spiralat creeaza un efect hipnotizant care capteaza privirea si stimuleaza imaginatia.<br><br>🔄 Design: iluzie optica tunel<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>Un titirez unic ce aduce un aer modern si artistic oricarui moment de relaxare!",
@@ -193,6 +193,22 @@
     "thickness": "3-4mm",
     "images": [
       "produse/titirez-abstract-iluzie-optica-tunel-v1-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-abstract-iluzie-optica-tunel-v2",
+    "name": "Titirez din lemn – Iluzie optica tunel v2 🔄",
+    "price": 20,
+    "currency": "lei",
+    "description": "Acest titirez cu design abstract si iluzie optica tunel transforma miscarea simpla intr-un joc fascinant al perspectivei. Modelul spiralat creeaza un efect hipnotizant care capteaza privirea si stimuleaza imaginatia.<br><br>🔄 Design: iluzie optica tunel<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>Un titirez unic ce aduce un aer modern si artistic oricarui moment de relaxare!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-abstract-iluzie-optica-tunel-v2-rotation.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
     "category": "Titireze",
@@ -247,6 +263,70 @@
     "categoryUrl": "titireze.html"
   },
   {
+    "id": "titirez-cartoon-marshall-patrula-catelusilor",
+    "name": "Titirez din lemn – Patrula Catelusilor - Marshall 🐶",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un titirez plin de energie si curaj, inspirat de Marshall – catelusul pompier din indragita serie 'Patrula Catelusilor'. Cu un design vesel si colorat, acest model aduce bucurie copiilor si fanilor aventurilor din Adventure Bay. Ideal pentru micii eroi care iubesc sa se joace si sa-si imagineze misiuni salvatoare!<br><br>🐶 Design: Marshall din Patrula Catelusilor<br>🎨 Colorat manual in culori vibrante<br>🪵 Material: placaj din lemn finisat<br>🎁 Cadoul perfect pentru fanii seriei animate<br><br>Un titirez curajos si simpatic care aduce zambete instant!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-cartoon-characters-patrula-catelusilor-marshall-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-cartoon-spiderman",
+    "name": "Titirez din lemn – Spider-Man v1 🕸️",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un titirez plin de actiune si energie inspirat de celebrul supererou Spider-Man! Designul colorat si dinamic aduce la viata spiritul aventuros al personajului, fiind ideal pentru fanii benzilor desenate si ai universului Marvel. Perfect pentru colectii speciale sau ca un cadou de impact!<br><br>🕸️ Design: masca stilizata Spider-Man in nuante de rosu si negru<br>🎨 Colorat manual cu detalii contrastante<br>🪵 Material: placaj din lemn finisat<br>🎁 Cadoul perfect pentru micii eroi sau colectionari<br><br>Un titirez care prinde imediat atentia, gata de joaca sau expus cu mandrie!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-cartoon-characters-spider-man-2-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-cartoon-spiderman-v2",
+    "name": "Titirez din lemn – Spider-Man v2 🕸️",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un titirez plin de actiune si energie inspirat de celebrul supererou Spider-Man! Designul colorat si dinamic aduce la viata spiritul aventuros al personajului, fiind ideal pentru fanii benzilor desenate si ai universului Marvel. Perfect pentru colectii speciale sau ca un cadou de impact!<br><br>🕸️ Design: masca stilizata Spider-Man in nuante de rosu si negru<br>🎨 Colorat manual cu detalii contrastante<br>🪵 Material: placaj din lemn finisat<br>🎁 Cadoul perfect pentru micii eroi sau colectionari<br><br>Un titirez care prinde imediat atentia, gata de joaca sau expus cu mandrie!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-cartoon-characters-spider-man-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-cartoon-spiderman-v3",
+    "name": "Titirez din lemn – Spider-Man v3 🕸️",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un titirez plin de actiune si energie inspirat de celebrul supererou Spider-Man! Designul colorat si dinamic aduce la viata spiritul aventuros al personajului, fiind ideal pentru fanii benzilor desenate si ai universului Marvel. Perfect pentru colectii speciale sau ca un cadou de impact!<br><br>🕸️ Design: masca stilizata Spider-Man in nuante de rosu si negru<br>🎨 Colorat manual cu detalii contrastante<br>🪵 Material: placaj din lemn finisat<br>🎁 Cadoul perfect pentru micii eroi sau colectionari<br><br>Un titirez care prinde imediat atentia, gata de joaca sau expus cu mandrie!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-cartoon-characters-spider-man-v3-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
     "id": "titirez-dbz-piccolo",
     "name": "Titirez din lemn - Dragon Ball Z - Piccolo 🐉💥",
     "price": 20,
@@ -289,8 +369,24 @@
     "categoryUrl": "titireze.html"
   },
   {
-    "id": "titirez-insecte-fluture-multicolor",
-    "name": "Titirez din lemn – Fluture multicolor 🦋",
+    "id": "titirez-insecte-fluture-multicolor-v1",
+    "name": "Titirez din lemn – Fluture multicolor v1 🦋",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un titirez colorat si delicat, inspirat de eleganta si libertatea fluturilor. Designul vibrant prinde viata in timpul rotirii, oferind o explozie de culoare si bucurie.<br><br>🦋 Design: fluture multicolor<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>O alegere vesela si plina de farmec pentru orice varsta!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-insecte-fluture-multicolor-v1-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-insecte-fluture-multicolor-v2",
+    "name": "Titirez din lemn – Fluture multicolor v2 🦋",
     "price": 20,
     "currency": "lei",
     "description": "Un titirez colorat si delicat, inspirat de eleganta si libertatea fluturilor. Designul vibrant prinde viata in timpul rotirii, oferind o explozie de culoare si bucurie.<br><br>🦋 Design: fluture multicolor<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>O alegere vesela si plina de farmec pentru orice varsta!",
@@ -305,16 +401,64 @@
     "categoryUrl": "titireze.html"
   },
   {
-    "id": "titirez-natura-copac-pe-marginea-lacului-v1",
-    "name": "Titirez din lemn - Copac pe marginea lacului 🌳🌊",
+    "id": "titirez-insecte-fluture-multicolor-v3",
+    "name": "Titirez din lemn – Fluture multicolor v3 🦋",
     "price": 20,
     "currency": "lei",
-    "description": "Titirez din lemn - Copac pe marginea lacului 🌳🌊<br><br>Inspirat de frumusetea si linistea naturii, acest titirez reda o scena calma cu un copac solitar langa un lac senin. Jocul de culori si detaliile pictate manual aduc un strop de relaxare si magie in fiecare rotatie.<br><br>🌿 Material: Lemn natural, pictat cu grija<br>🌅 Design: Peisaj cu copac si lac<br>🌀 Rotatie lina: Echilibru perfect pentru o miscare armonioasa<br>🎁 Ideal pentru cadou: Pentru iubitorii de natura si momente de calm<br><br>Intoarce-l si lasa-l sa spuna povestea unei zile linistite pe malul lacului. 🌳🌊",
+    "description": "Un titirez colorat si delicat, inspirat de eleganta si libertatea fluturilor. Designul vibrant prinde viata in timpul rotirii, oferind o explozie de culoare si bucurie.<br><br>🦋 Design: fluture multicolor<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>O alegere vesela si plina de farmec pentru orice varsta!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-insecte-fluture-multicolor-v3-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-insecte-fluture-multicolor-v4",
+    "name": "Titirez din lemn – Fluture multicolor v4 🦋",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un titirez colorat si delicat, inspirat de eleganta si libertatea fluturilor. Designul vibrant prinde viata in timpul rotirii, oferind o explozie de culoare si bucurie.<br><br>🦋 Design: fluture multicolor<br>🎨 Colorat manual cu atentie la detalii<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cadou sau colectie<br><br>O alegere vesela si plina de farmec pentru orice varsta!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-insecte-fluture-multicolor-v4-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-natura-copac-pe-marginea-lacului-v1",
+    "name": "Titirez din lemn - Copac solitar v1 🌳🌊",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Copac solitar v1 🌳🌊<br><br>Inspirat de frumusetea si linistea naturii, acest titirez reda o scena calma cu un copac solitar langa un lac senin. Jocul de culori si detaliile pictate manual aduc un strop de relaxare si magie in fiecare rotatie.<br><br>🌿 Material: Lemn natural, pictat cu grija<br>🌅 Design: Peisaj cu copac si lac<br>🌀 Rotatie lina: Echilibru perfect pentru o miscare armonioasa<br>🎁 Ideal pentru cadou: Pentru iubitorii de natura si momente de calm<br><br>Intoarce-l si lasa-l sa spuna povestea unei zile linistite pe malul lacului. 🌳🌊",
     "material": "Lemn",
     "dimensions": "5x7 cm",
     "thickness": "3-4mm",
     "images": [
       "produse/titirez-natura-copac-pe-marginea-lacului-v1-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-natura-copac-pe-marginea-lacului-v2",
+    "name": "Titirez din lemn - Copac solitar v2 🌳🌊",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Copac solitar v2 🌳🌊<br><br>Inspirat de frumusetea si linistea naturii, acest titirez reda o scena calma cu un copac solitar langa un lac senin. Jocul de culori si detaliile pictate manual aduc un strop de relaxare si magie in fiecare rotatie.<br><br>🌿 Material: Lemn natural, pictat cu grija<br>🌅 Design: Peisaj cu copac si lac<br>🌀 Rotatie lina: Echilibru perfect pentru o miscare armonioasa<br>🎁 Ideal pentru cadou: Pentru iubitorii de natura si momente de calm<br><br>Intoarce-l si lasa-l sa spuna povestea unei zile linistite pe malul lacului. 🌳🌊",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-natura-copac-pe-marginea-lacului-v2-rotation.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
     "category": "Titireze",
@@ -338,10 +482,10 @@
   },
   {
     "id": "titirez-natura-frunze-stea",
-    "name": "Titirez din lemn - Natura - Frunze in forma de stea 🍃⭐",
+    "name": "Titirez din lemn - Frunze in forma de stea 🍃⭐",
     "price": 20,
     "currency": "lei",
-    "description": "Titirez din lemn - Natura - Frunze in forma de stea 🍃⭐<br><br>Inspirat de frumusetea naturii, acest titirez aduce farmecul frunzelor in forma de stea direct in palma ta! Designul sau elegant si detaliile pictate manual creeaza un efect vizual captivant atunci cand se invarte.<br><br>🌳 Material: Lemn de calitate, pictat manual<br>🍃 Design: Frunze in forma de stea, cu detalii fine<br>🌀 Rotație lina: Echilibrat pentru o miscare fluida<br>🎁 Ideal pentru cadou: Pentru iubitorii naturii si colectii unice<br><br>Redescopera magia naturii intr-un titirez fascinant! 🍃⭐",
+    "description": "Titirez din lemn - Frunze in forma de stea 🍃⭐<br><br>Inspirat de frumusetea naturii, acest titirez aduce farmecul frunzelor in forma de stea direct in palma ta! Designul sau elegant si detaliile pictate manual creeaza un efect vizual captivant atunci cand se invarte.<br><br>🌳 Material: Lemn de calitate, pictat manual<br>🍃 Design: Frunze in forma de stea, cu detalii fine<br>🌀 Rotație lina: Echilibrat pentru o miscare fluida<br>🎁 Ideal pentru cadou: Pentru iubitorii naturii si colectii unice<br><br>Redescopera magia naturii intr-un titirez fascinant! 🍃⭐",
     "material": "Lemn",
     "dimensions": "5x7 cm",
     "thickness": "3-4mm",
@@ -373,6 +517,22 @@
     "categoryUrl": "titireze.html"
   },
   {
+    "id": "titirez-natura-munte-noaptea",
+    "name": "Titirez din lemn – Peisaj de munte noaptea 🌌",
+    "price": 20,
+    "currency": "lei",
+    "description": "Un peisaj linistit si spectaculos inspirat de frumusetea muntilor sub lumina noptii. Acest titirez reda armonia dintre natura si cerul intunecat, fiind o alegere perfecta pentru cei care viseaza cu ochii deschisi si apreciaza momentele de calm. Un design elegant si misterios care se remarca prin simplitate si rafinament.<br><br>🌌 Design: silueta de munte si cer nocturn<br>🎨 Colorat manual in nuante reci si contrastante<br>🪵 Material: placaj din lemn finisat<br>🎁 Ideal pentru cei pasionati de natura si liniste<br><br>Un titirez care evoca linistea si farmecul noptii in mijlocul muntilor!",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-natura-peisaj-munte-noaptea-rotation.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
     "id": "titirez-pokemon-bulbasaur",
     "name": "Titirez din lemn - Bulbasaur 🍃💚",
     "price": 20,
@@ -393,19 +553,36 @@
     "categoryUrl": "titireze.html"
   },
   {
-    "id": "titirez-printesa",
-    "name": "Titirez din lemn - Printesa 👑✨",
+    "id": "titirez-basm-printesa-v1",
+    "name": "Titirez din lemn - Printesa v1 👑✨",
     "price": 20,
     "currency": "lei",
-    "description": "Titirez din lemn - Printesa 👑✨<br><br>Un titirez fermecator inspirat de basme si magie! Acest model delicat, colorat manual, aduce un strop de eleganta si stralucire in fiecare rotatie. Cu un design inspirat de printese si povesti de vis, acest titirez este perfect pentru micile iubitoare de fantezie si magie.<br><br>🌟 Material: Lemn durabil, pictat manual<br>👸 Design: Inspirat de printese, cu detalii fine si culori vibrante<br>🌀 Rotație lina: Proiectat pentru echilibru si miscare fluida<br>🎁 Ideal pentru cadou: Perfect pentru copii sau colectionari<br><br>Adauga un strop de magie si lasa-l sa se invarta in lumea povestilor! ✨👑",
+    "description": "Titirez din lemn - Printesa v1 👑✨<br><br>Un titirez fermecator inspirat de basme si magie! Acest model delicat, colorat manual, aduce un strop de eleganta si stralucire in fiecare rotatie. Cu un design inspirat de printese si povesti de vis, acest titirez este perfect pentru micile iubitoare de fantezie si magie.<br><br>🌟 Material: Lemn durabil, pictat manual<br>👸 Design: Inspirat de printese, cu detalii fine si culori vibrante<br>🌀 Rotație lina: Proiectat pentru echilibru si miscare fluida<br>🎁 Ideal pentru cadou: Perfect pentru copii sau colectionari<br><br>Adauga un strop de magie si lasa-l sa se invarta in lumea povestilor! ✨👑",
     "material": "Lemn",
     "dimensions": "5x7 cm",
     "thickness": "3-4mm",
     "images": [
+      "produse/titirez-printesa-v1-rotation.jpg",
       "produse/titirez-printesa-1.jpg",
       "produse/titirez-printesa-2.jpg",
       "produse/titirez-printesa-3.jpg",
       "produse/titirez-printesa-4.jpg"
+    ],
+    "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
+    "category": "Titireze",
+    "categoryUrl": "titireze.html"
+  },
+  {
+    "id": "titirez-basm-printesa-v2",
+    "name": "Titirez din lemn - Printesa v2 👑✨",
+    "price": 20,
+    "currency": "lei",
+    "description": "Titirez din lemn - Printesa v2 👑✨<br><br>Un titirez fermecator inspirat de basme si magie! Acest model delicat, colorat manual, aduce un strop de eleganta si stralucire in fiecare rotatie. Cu un design inspirat de printese si povesti de vis, acest titirez este perfect pentru micile iubitoare de fantezie si magie.<br><br>🌟 Material: Lemn durabil, pictat manual<br>👸 Design: Inspirat de printese, cu detalii fine si culori vibrante<br>🌀 Rotație lina: Proiectat pentru echilibru si miscare fluida<br>🎁 Ideal pentru cadou: Perfect pentru copii sau colectionari<br><br>Adauga un strop de magie si lasa-l sa se invarta in lumea povestilor! ✨👑",
+    "material": "Lemn",
+    "dimensions": "5x7 cm",
+    "thickness": "3-4mm",
+    "images": [
+      "produse/titirez-printesa-v2-rotation.jpg"
     ],
     "shipping": "Livrare: 2-5 zile lucratoare. Livrare gratuita in Bucuresti indiferent de valoarea comenzii sau livrare prin Fan Courier in restul tarii. La livrarea prin Fan Courier transportul va fi gratuit daca totalul comenzii depaseste 50 lei.",
     "category": "Titireze",
